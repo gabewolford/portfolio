@@ -1,6 +1,6 @@
 # Portfolio Project
 ***An embedded screenshot of the app***
-
+![picture](http://via.placeholder.com/200x150 "screenshot")
 
 
 ***Technologies Used***
