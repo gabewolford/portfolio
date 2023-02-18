@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio Project
 ***An embedded screenshot of the app***
 
 
