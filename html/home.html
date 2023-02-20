@@ -4,55 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gabe wolford | home</title>
+    <title>gabe wwwolford | home</title>
     <link rel="icon" href="/assets/yellow icon.png">
     <link rel="stylesheet" href="/styles/styles.css">
     <script src="/javascript/app.js" defer></script>
 </head>
 
 <body>
-
     <nav class="blue-hover">
         <a class="home" href="home.html">home</a>
         <a class="work" href="work.html">work</a>
         <a class="me" href="me.html">me</a>
-        <a class="mode">dark mode: <img src="/assets/toggle.png"></a>
+        <a class="mode">dark mode: 
+            <label class="switch">
+                <input type="checkbox">
+                <span id="toggle-button" class="slider round"></span>
+            </label>
+        </a>
     </nav>
 
-    <div class="blurb">
-        <div class="text">
+    <!-- <section class="default-blurb">
+        <div id="default">
             <h1>hey there, i’m <span>gabe</span><br>
             i’m <span>a full stack software engineer</span><br>
             based in <span>portland, oregon</span>
             </h1>
         </div>
-
-        <!-- hover state formatting -->
-        <div class="blurb-hover">  
+    </section> -->
+        
+    <section class="hover-blurb">
+        <div id="hover">  
             <h1>hey there, i’m 
-                <span id="grey-hover">gabe</span>
-                <span id="green-hover">( )</span><br>i’m 
-                <span id="blue-hover">‹</span>
-                <span id="grey-hover">a</span>
-                <span id="blue-hover">› </span>
-                <span id="yellow-hover">{</span>
-                <span id="brown-hover">fullStack</span>
-                <span id="blue-hover">:</span>
-                <span id="orange-hover">software-engineer</span>
-                <span id="yellow-hover">}</span><br>based in 
-                <span id="pink-hover">[</span>
-                <span id="orange-hover">'</span>
-                <span id="blue-hover">portland
-                <span id="orange-hover">'</span>
-                <span id="green-hover">, </span> 
-                <span id="orange-hover">'</span>
-                <span id="blue-hover">oregon</span>
-                <span id="orange-hover">'</span>
-                <span id="pink-hover">]</span>
+                <span class="dark-grey">gabe</span>
+                <span class="green">( )</span><br>i’m 
+                <span class="blue">‹</span>
+                <span class="dark-grey">a</span>
+                <span class="blue">› </span>                    
+                <span class="yellow">{</span>
+                <span class="brown">fullStack</span>
+                <span class="blue">:</span>
+                <span class="orange">software-engineer</span>
+                <span class="yellow">}</span><br>based in 
+                <span class="pink">[</span>
+                <span class="orange">'</span>
+                <span class="blue">portland
+                <span class="orange">'</span>
+                <span class="green">, </span> 
+                <span class="orange">'</span>
+                <span class="blue">oregon</span>
+                <span class="orange">'</span>
+                <span class="pink-hover">]</span>
             </h1>
         </div>
-    </div>
-
+    </section>
 
 </body>
 
