@@ -30,7 +30,6 @@ _________________________________*/
     --pink: #D81796;
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -49,7 +48,6 @@ body {
     height: 100vh;
     width: 97vw;
 }
-
 
 nav {
     position: fixed;
@@ -85,7 +83,6 @@ nav {
     align-self: end;
   }
 
-
 .wrapper {
     display: flex;
     border: 1px solid orange;
@@ -107,9 +104,8 @@ nav {
     max-width: 894px;
     width: 100%;
     position: relative;
-    top: 186px;
+    top: 136px;
     margin: 0 auto;
-
 }
 
 .bio-image {
@@ -130,7 +126,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     border: 1px solid green;
-    margin-top: 28.5px;
+    margin-top: 44px;
     margin-bottom: 20px;
     font-size: var(--h1-font-size);
     line-height: 48px;
@@ -141,9 +137,93 @@ nav {
     display: flex;
     flex-wrap: wrap;
     max-width: 521px;
+    height: 263px;
     font-size: var(--paragraph-font-size);
     border: 1px dotted dodgerblue;
+}
 
+.skills-wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(1, 9, 250);
+    max-width: 894px;
+    max-height: 190px;
+    width: 100%;
+    position: relative;
+    top: 186px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.skills-header {
+    border: 1px solid gold;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    line-height: 38px;
+}
+
+.skills-header h2 {
+    font-size: var(--h2-font-size);
+}
+
+.languages {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.languages h4{
+    font-size: var(--label-font-size);
+    color: var(--dark-grey);
+}
+
+.languages-list {
+    border: 1px solid orange;
+    width: 193.5px;
+}
+.frameworks-list {
+    border: 1px solid orange;
+    width: 193.5px;
+}
+.databases-list {
+    border: 1px solid orange;
+    width: 193.5px;
+}
+.tools-list {
+    border: 1px solid orange;
+    width: 193.5px;
+}
+
+.links-wrapper {
+    border: 1px solid greenyellow;
+    display: flex;
+    margin: 300px;
+    width: 437px;
+    height: 38px
+}
+
+.download-arrow {
+    border: 1px solid black;
+    align-self: center;
+    margin-top: 4px;
+}
+
+.download {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 40px;
+    font-size: var(--h2-font-size);
+    height: 38px ;
+    border: 1px solid blue;
+}
+
+.links img {
+    border: 1px solid magenta;
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
 
 .project-screenshot {
@@ -301,7 +381,7 @@ _________________________________*/
     .wrapper {
         display: flex;
         flex-direction: row;
-        /* border: 1px solid orange; */
+        border: 1px solid orange;
         max-width: 706px;
         height: 260px;
         position: relative;
@@ -332,13 +412,12 @@ _________________________________*/
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         text-align: left;
         width: 100%;
         max-width: 775px;
-        /* border: 1px solid green; */
+        border: 1px solid green;
     }
     
     h1 {
