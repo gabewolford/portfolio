@@ -290,8 +290,8 @@ _________________________________*/
         align-items: center;
         text-align: left;
         width: 100%;
-        max-width: 750px;
-        border: 1px solid green;
+        max-width: 775px;
+        /* border: 1px solid green; */
     }
     
     h1 {
