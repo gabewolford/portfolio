@@ -14,19 +14,19 @@
 
 <body>
     
-    <input id="toggle" type="checkbox"></input>
+    <a class="hamburger-icon" href="#">
+        <img class="hamburger-image" src="/assets/black-hamburger.png">
+    </a>
+    <a class="close-icon" href="#">
+        <img src="/assets/black-close.png">
+    </a>
 
-    <label for="toggle" class="hamburger">
-        <div>
-            <img src="/assets/black hamburger.png">
-        </div>
-    </label>
-    
-    <nav>
-        <a class="home" href="home.html">home</a>
-        <a class="work" href="work.html">work</a>
-        <a class="me" href="me.html">me</a>
-        <a class="mode">dark mode: 
+
+    <nav class="nav-menu">
+        <a class="home active" href="home.html">home</a><br>
+        <a class="work active" href="work.html">work</a><br>
+        <a class="me active" href="me.html">me</a><br>
+        <a class="mode">dark mode 
             <label class="switch">
                 <input type="checkbox">
                 <span id="toggle-button" class="slider round"></span>
@@ -34,44 +34,19 @@
         </a>
     </nav>
 
-    <section class="default-blurb">
-        <div id="default">
-            <h1>hey there, i’m <span>gabe</span><br>
-            i’m <span>a full stack software engineer</span><br>
-            based in <span>portland, oregon</span>
+    <div class="intro">
+        <img class="intro-image" src="/assets/mobile blurb light.png" alt="introduction">
+    </div>
+
+
+    <!-- <section class="intro">
+        <div id="intro-wrapper">
+            <h1>hey there, i’m gabe<br>
+            i’m a full stack software engineer<br>
+            based in portland, oregon
             </h1>
         </div>
-    </section>
-        
-    <section class="blurb-photo">
-        <!-- <img src="/assets/blurb-photo-light.png"> -->
-        <!-- <img src="/assets/mobile blurb light.png"> -->
-    </section>
-        <!-- <div id="hover">  
-            <h1>hey there, i’m 
-                <span class="dark-grey">gabe</span>
-                <span class="green">( )</span><br>i’m 
-                <span class="blue">‹</span>
-                <span class="dark-grey">a</span>
-                <span class="blue">› </span>                    
-                <span class="yellow">{</span>
-                <span class="brown">fullStack</span>
-                <span class="blue">:</span>
-                <span class="orange">software-engineer</span>
-                <span class="blue">;</span>
-                <span class="yellow">}</span><br>based in 
-                <span class="pink">[</span>
-                <span class="orange">'</span>
-                <span class="blue">portland
-                <span class="orange">'</span>
-                <span class="green">, </span> 
-                <span class="orange">'</span>
-                <span class="blue">oregon</span>
-                <span class="orange">'</span>
-                <span class="pink-hover">]</span>
-            </h1>
-        </div> -->
-    <!-- </section> -->
+    </section> -->
 
 </body>
 

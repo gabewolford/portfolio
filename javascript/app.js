@@ -1,20 +1,50 @@
-// DARK MODE MESS
-const toggleSwitch = document.querySelector('.slider');
+const hamburgerIcon = document.querySelector('.hamburger-icon');
+const closeIcon = document.querySelector('.close-icon')
+const navMenu = document.querySelector('.nav-menu');
+
+// hamburger nav functionality
+hamburgerIcon.addEventListener('click', () => {
+    navMenu.classList.toggle('open');
+    hamburgerIcon.style.display = 'none';
+    closeIcon.style.display = 'block';
+})
+
+closeIcon.addEventListener('click', () => {
+    navMenu.classList.remove('open');
+    closeIcon.style.display = 'none';
+    hamburgerIcon.style.display = 'block';
+})
+
+// dark mode functionality
+const introImage = document.querySelector('.intro-image')
+const hamburgerImage = document.querySelector('.hamburger-image');
+const darkModeToggle = document.querySelector('.slider')
+const toggleSwitch = document.querySelector('.switch input[type="checkbox"]');
+
 console.log(toggleSwitch);
-const emailIcon = document.querySelector('#email');
-console.log(emailIcon);
-const linkedinIcon = document.querySelector('#linkedin');
-console.log(linkedinIcon);
-const githubIcon = document.querySelector('#github');
-console.log(githubIcon);
+toggleSwitch.addEventListener('change', switchTheme, false);
 
+function switchTheme(event) {
+    if (event.target.checked) {
+        // dark mode is on
+        introImage.src = '/assets/mobile blurb dark.png';
+        hamburgerImage.src = '/assets/white-hamburger.png';
 
-function changeToDark() {
-    document.body.style.backgroundColor = "var(--black)"
-    document.body.style.color = "var(--white)"
-    emailIcon.src = '/assets/email-circle-dark.png'
-    linkedinIcon.src = '/assets/linkedin-circle-dark.png'
-    githubIcon.src = '/assets/github-circle-dark.png'
+    } else {
+        // dark mode is off
+        introImage.src = '/assets/mobile blurb light.png'
+        hamburgerImage.src = '/assets/black-hamburger.png';
+    }
 }
 
-toggleSwitch.addEventListener('click', changeToDark);
+function darkMode() {
+    document.body.classList.toggle('dark-mode');
+    const hamburgerImage = document.querySelector('.hamburger-image');
+    if (document.body.classList.contains('dark-mode')) {
+        hamburgerImage.src = '/assets/white-hamburger.png';
+    } else {
+        hamburgerImage.src = '/assets/black-hamburger.png';
+    }
+}
+
+darkModeToggle.addEventListener('click', darkMode);
