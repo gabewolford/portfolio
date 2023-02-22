@@ -34,66 +34,109 @@
         </a>
     </nav>
 
-    <section class="bio-wrapper">        
-        <div class="bio-image">
-            <div class="bio-pic">
-                <img src="/assets/pic.png">
+    <main class="bio-flex-container">
+        <section class="bio-wrapper">        
+            <div class="bio-image">
+                <div class="bio-pic">
+                    <img src="/assets/pic.png">
+                </div>
             </div>
-        </div>
+                
+            <div class="title-wrapper">
+                <h1>a lil bit about me</h1>
+            </div>
             
-        <div class="right">
-            <h1 class="bio-title">a lil bit about me</h1>
             <div class="bio-p1">
-                <p class="">i'm gabe, a full stack software engineer based in portland, oregon. before i was a developer, i spent almost 10 years in the music industry working in live production, touring, labels, streaming, startups & experiential agency work. i am detail-oriented & analytically-savvy. i have a knack for operations and am passionate about building & designing great internal tools. i love to help create the best user experience possible, whether in real life or on the web.</p>
-                <p class="">in my spare time you can find me outside, riding my bike on a variety of different surfaces. if i'm not doing that, i enjoy cooking, baking, hiking, and exploring the pnw with my dog and my partner. as a lifelong learner, space fanatic, and amateur astronomer, i love reading about the universe & the current state of space exploration.</p>
+                <p>i'm gabe, a full stack software engineer based in portland, oregon. before i was a developer, i spent almost 10 years in the music industry working in live production, touring, labels, streaming, startups & experiential agency work. i am detail-oriented & analytically-savvy. i have a knack for operations and am passionate about building & designing great internal tools. i love to help create the best user experience possible, whether in real life or on the web.</p>
             </div>
-        </div>
-    </section>
+            
+            <div class="bio-p2"> 
+                <p>in my spare time you can find me outside, riding my bike on a variety of different surfaces. if i'm not doing that, i enjoy cooking, baking, hiking, and exploring the pnw with my dog and my partner. as a lifelong learner, space fanatic, and amateur astronomer, i love reading about the universe & the current state of space exploration.</p>
+            </div>
+        </section>
 
-    <section class="skills-wrapper">        
-        <div class="skills-header">
-            <h2>skills</h2>
-        </div>
-        <div class="languages">
-            <div class="languages-list">
-                <div>
-                    <h4>languages</h4><br>
-                    <p>javascript, html, css, python, sql</p>
+        <section class="skills-wrapper">             
+            <div class="skills-header">
+                <h2>skills</h2>
+            </div>
+
+            <div class="languages">
+                <div class="languages-wrapper">
+                    <div class="languages-header">
+                        <h4>languages</h4>
+                    </div>
+                    <div class="languages-list">
+                        <p>javascript, html, css, python, sql</p>
+                    </div>
                 </div>
             </div>
+            
             <div class="frameworks">
-                <div class="frameworks-list">
-                    <h4>frameworks</h4><br>
-                    <p>react, jquery, node, django, express, bootstrap, tailwind</p>
+                <div class="frameworks-wrapper">
+                    <div class="frameworks-header">
+                        <h4>frameworks</h4>
+                    </div>
+                    <div class="frameworks-list">
+                        <p>react, jquery, node, django, express, bootstrap, tailwind</p>
+                    </div>
                 </div>
             </div>
-            <div class="databases">
-                <div class="databases-list">
-                    <h4>databases</h4><br>
-                    <p>mongoDB, postresql, mongoose</p>
-                </div>
-            </div>
-            <div class="tools">
-                <div class="tools-list">
-                    <h4>tools</h4><br>
-                    <p>git, github, heroku, docker, terminal, figma, visual studio code</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section class="links-wrapper">
-        <span></span><a href="/assets/resume.pdf" target="_blank"><img class="download-arrow"src="/assets/blue-download.png"></a></span>
-        <a class="download" href="/assets/resume.pdf" target="_blank">download resume</a>
-        <div class="links">
-            <span class="social-links">
-                <a class="email" href="mailto:gabewolford@gmail.com" target="_blank"><img id="email" src="/assets/email-circle.png"></a>
-                <a class= "linkedin" href="https://www.linkedin.com/in/gabe-wolford-0471b39b/" target="_blank"><img id="linkedin" src="/assets/linkedin-circle.png"></a>
-                <a class="github" href="https://github.com/gabewolford" target="_blank"><img id="github" src="/assets/github-circle.png"></a>
-            </span>
-        </div>
-    </section>
-        
+            <div class="databases">
+                <div class="databases-wrapper">
+                    <div class="databases-header">
+                        <h4>databases</h4>
+                    </div>
+                    <div class="databases-list">
+                        <p>mongoDB, postresql, mongoose</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tools">
+                <div class="tools-wrapper">
+                    <div class="tools-header">
+                        <h4>tools</h4>
+                    </div>
+                    <div class="tools-list">
+                        <p>git, github, heroku, docker, terminal, figma, visual studio code</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="links-wrapper">        
+            <div class="download-duo">
+                <div>
+                    <span class="download-arrow">
+                        <a class="download-arrow" href="/assets/resume.pdf" target="_blank">
+                            <img class="arrow" src="/assets/blue-download.png">
+                        </a>
+                    </span>
+                <!-- </div>
+
+                <div> -->
+                    <span class="download-text">
+                        <a href="/assets/resume.pdf" target="_blank">download resume</a>
+                    </span>
+                </div>
+            </div>
+                
+            <div class="social-trio"> 
+                <span class="social-links">
+                    <a class="email" href="mailto:gabewolford@gmail.com" target="_blank">
+                        <img id="email" src="/assets/email-circle.png">
+                    </a>
+                    <a class= "linkedin" href="https://www.linkedin.com/in/gabe-wolford-0471b39b/" target="_blank">
+                        <img id="linkedin" src="/assets/linkedin-circle.png">
+                    </a>
+                    <a class="github" href="https://github.com/gabewolford" target="_blank">
+                        <img id="github" src="/assets/github-circle.png">
+                    </a>
+                </span>
+            </div>
+
+        </section>
     </main>
 
 </body>
