@@ -14,6 +14,7 @@
     --link-hover-font-size: 1.5625rem;
     --link-font-size: 1.5rem;
     --label-font-size: 1rem;
+    --label-hover-font-size: 1.063rem;
     --paragraph-font-size: 1rem;
     --black: rgb(24, 24, 24);
     --white: rgb(255, 255, 255);
@@ -49,12 +50,14 @@ body.dark-mode {
     color: var(--white);
 }
 
+/* hamburger nav */
 .hamburger-icon {
     position: fixed;
     width: 2rem;
     height: 2rem;
     top: 1.875rem;
     right: 1.25rem;
+    z-index: 50;
 }
 
 .hamburger-image {
@@ -70,8 +73,17 @@ body.dark-mode {
     z-index: 100;
 }
 
+.nav-item {
+    color: var(--black);
+}
+
+.dark-mode-nav {
+    color: var(--white);
+}
+
 .nav-menu {
     display: none;
+    background-color: var(--white);
     color: var(--black);
 }
 
@@ -102,14 +114,7 @@ body.dark-mode {
     color: var(--blue);
 }
 
-.intro {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+/* dark mode toggle switch */
 .switch {
     position: relative;
     display: inline-block;
@@ -169,8 +174,19 @@ input:checked + .slider:before {
     border-radius: 32px;
 }
 
+/* intro section */
+.intro {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* work page */
 .flex-container {
-    position: absolute;
+    /* position: relative; */
+    top: 100px;
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
@@ -472,8 +488,15 @@ input:checked + .slider:before {
 
 .download-text {
     border: 1px solid yellow;
+    font-size: var(--label-font-size);
     text-decoration: none;
     margin-right: .75rem;
+}
+
+.download-text a:hover {
+    font-size: var(--label-hover-font-size);
+    text-decoration: none;
+    color: var(--blue);
 }
 
 .social-trio {
@@ -487,6 +510,7 @@ input:checked + .slider:before {
 .social-links a img {
     border: 1px solid orange;
 }
+
 
 /* TABLET CSS
 _________________________________*/

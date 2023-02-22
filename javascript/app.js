@@ -20,7 +20,8 @@ const introImage = document.querySelector('.intro-image')
 const hamburgerImage = document.querySelector('.hamburger-image');
 const darkModeToggle = document.querySelector('.slider')
 const toggleSwitch = document.querySelector('.switch input[type="checkbox"]');
-
+const navItems = document.querySelectorAll('.nav-item');
+console.log(navItems);
 
 console.log(toggleSwitch);
 toggleSwitch.addEventListener('change', switchTheme, false);
@@ -28,13 +29,14 @@ toggleSwitch.addEventListener('change', switchTheme, false);
 function switchTheme(event) {
     if (event.target.checked) {
         // dark mode is on
+        navItems.forEach(item => item.classList.add('dark-mode-nav'));
         introImage.src = '/assets/mobile blurb dark.png';
         hamburgerImage.src = '/assets/white-hamburger.png';
-
     } else {
         // dark mode is off
+        navItems.forEach(item => item.classList.remove('dark-mode-nav'));
         introImage.src = '/assets/mobile blurb light.png'
-        hamburgerImage.src = '/assets/black-hamburger.png';
+        hamburgerImage.src = '/assets/black-hamburger.png'; 
     }
 }
 
@@ -49,3 +51,21 @@ function darkMode() {
 }
 
 darkModeToggle.addEventListener('click', darkMode);
+
+
+// link hover effects
+const linkDefault = document.querySelectorAll('.link-default');
+
+linkDefault.forEach(linkDefault => {
+    const originalImg = linkDefault.querySelector('img').src;
+    const newImg = '/assets/hover check it out right arrow.png';
+
+    linkDefault.addEventListener('mouseenter', () => {
+        linkDefault.querySelector('img').src = newImg;
+    });
+
+    linkDefault.addEventListener('mouseleave', () => {
+        linkDefault.querySelector('img').src = originalImg;
+    })
+})
+
