@@ -21,6 +21,7 @@ const hamburgerImage = document.querySelector('.hamburger-image');
 const darkModeToggle = document.querySelector('.slider')
 const toggleSwitch = document.querySelector('.switch input[type="checkbox"]');
 
+
 console.log(toggleSwitch);
 toggleSwitch.addEventListener('change', switchTheme, false);
 

@@ -39,7 +39,7 @@ body {
     font-family: var(--font-family), 'Inter', Helvetica;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    justify-content: center;
     background-color: var(--white);
     color: var(--black);
 }
@@ -67,10 +67,12 @@ body.dark-mode {
     top: 1.875rem;
     right: 1.25rem;
     display: none;
+    z-index: 100;
 }
 
 .nav-menu {
     display: none;
+    color: var(--black);
 }
 
 .nav-menu.open {
@@ -81,15 +83,17 @@ body.dark-mode {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgba(78, 77, 77, 0.719);
+    background-color: rgba(78, 77, 77);
     line-height: 2.5rem;
     backdrop-filter: blur(80%);
+    z-index: 50;
+    color: var(--white)
 }
 
 .nav-menu a {
     font-size: var(--link-font-size);
     text-decoration: none;
-    color: var(--blue);
+    color: var(--black);
 }
 
 .nav-menu a:hover {
@@ -165,16 +169,53 @@ input:checked + .slider:before {
     border-radius: 32px;
 }
 
+.flex-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid red;
+    margin: 4.375rem 1.25rem 6.25rem 1.25rem;
+    max-width: 20.938rem;
+}
+
+.title {
+    border: 1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+    min-width: 20.938rem;
+    font-size: var(--h1-font-size);
+    color: var(--dark-grey);
+}
+
+.project-wrapper {
+    border: 1px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+.project-screenshot {
+    border: 1px solid goldenrod
+}
+
+.cta {
+    border: 1px solid magenta;
+    margin-bottom: 0px;
+}
 
 /* TABLET CSS
 _________________________________*/
 @media only screen and (min-width: 768px) {
-    body {
-        border: 1px solid red;
-        height: 100vh;
-        width: 100vw;
-    }
+    /* body {
 
+    } */
 
     .hamburger-icon {
         display: none;
@@ -224,25 +265,21 @@ _________________________________*/
     }
 
     .intro-blurb {
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50, -50%);
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         align-self: center;
     }
+
 }
-
-
-
-
 /* /* DESKTOP CSS 
 _________________________________*/
 /* @media only screen and (min-width: 992px) {
     .body {
-        margin: 100px 100px;
+
     }
 
+    .flex-container {
+      
+    }
 } */
