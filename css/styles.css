@@ -50,6 +50,11 @@ body.dark-mode {
     color: var(--white);
 }
 
+.dark-mode {
+    background-color: var(--black);
+    color: var(--white);
+}
+
 /* hamburger nav */
 .hamburger-icon {
     position: fixed;
@@ -226,6 +231,7 @@ input:checked + .slider:before {
     margin-bottom: 0px;
 }
 
+/* about me page */
 .bio-flex-container {
     position: absolute;
     display: flex;
@@ -576,12 +582,47 @@ _________________________________*/
 }
 /* /* DESKTOP CSS 
 _________________________________*/
-/* @media only screen and (min-width: 992px) {
-    .body {
-
-    }
-
+@media only screen and (min-width: 992px) {
     .flex-container {
-      
+        border: 1px dotted goldenrod;
+        min-width: 44.125rem;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
     }
-} */
+
+    .title {
+        border: 1px dotted blue;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .project-wrapper {
+        border: 2px dotted green;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .project-screenshot {
+        border: 1px dotted red;
+        display: flex;
+        flex-direction: row;
+        order: -1;
+        margin-right: 2.5rem;
+    }
+
+    .project-title {
+        border: 1px dotted blue;
+        max-width: 20.813rem;
+        display: flex;
+    }
+    
+    .cta {
+        border: 1px dotted magenta;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

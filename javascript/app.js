@@ -1,8 +1,8 @@
+// hamburger nav functionality #1
 const hamburgerIcon = document.querySelector('.hamburger-icon');
 const closeIcon = document.querySelector('.close-icon')
 const navMenu = document.querySelector('.nav-menu');
 
-// hamburger nav functionality
 hamburgerIcon.addEventListener('click', () => {
     navMenu.classList.toggle('open');
     hamburgerIcon.style.display = 'none';
@@ -15,7 +15,7 @@ closeIcon.addEventListener('click', () => {
     hamburgerIcon.style.display = 'block';
 })
 
-// dark mode functionality
+// dark mode functionality #2
 const introImage = document.querySelector('.intro-image')
 const hamburgerImage = document.querySelector('.hamburger-image');
 const darkModeToggle = document.querySelector('.slider')
@@ -53,7 +53,7 @@ function darkMode() {
 darkModeToggle.addEventListener('click', darkMode);
 
 
-// link hover effects
+// link hover effects #3
 const linkDefault = document.querySelectorAll('.link-default');
 
 linkDefault.forEach(linkDefault => {
