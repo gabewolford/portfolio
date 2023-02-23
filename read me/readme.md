@@ -32,6 +32,6 @@ N/A
 
 
 ***Descriptions of any Unsolved problems or major hurdles you had to overcome***
-*
-*
+* dark mode is still a bit buggy, need to stay in dark mode when moving to other pages
+* 
 *
