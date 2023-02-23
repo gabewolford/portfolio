@@ -45,6 +45,17 @@ body {
     color: var(--black);
 }
 
+a {
+    font-size: var(--link-font-size);
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    font-size: var(--link-hover-font-size);
+    text-decoration: none;
+    color: var(--blue);
+}
+
 body.dark-mode {
     background-color: var(--black);
     color: var(--white);
@@ -80,16 +91,19 @@ body.dark-mode {
 
 .nav-item {
     color: var(--black);
+    text-decoration: none;
 }
 
 .dark-mode-nav {
     color: var(--white);
+    text-decoration: none;
 }
 
 .nav-menu {
     display: none;
     background-color: var(--white);
     color: var(--black);
+    text-decoration: none;
 }
 
 .nav-menu.open {
@@ -105,18 +119,6 @@ body.dark-mode {
     backdrop-filter: blur(80%);
     z-index: 50;
     color: var(--white)
-}
-
-.nav-menu a {
-    font-size: var(--link-font-size);
-    text-decoration: none;
-    color: var(--black);
-}
-
-.nav-menu a:hover {
-    font-size: var(--link-hover-font-size);
-    text-decoration: none;
-    color: var(--blue);
 }
 
 /* dark mode toggle switch */
@@ -186,6 +188,10 @@ input:checked + .slider:before {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.h1-text {
+    border: 1px solid blue;
 }
 
 /* work page */
@@ -389,7 +395,7 @@ input:checked + .slider:before {
     position: relative;
     min-width: 20.938rem;
     width: 100%;
-    height: 3.25rem;
+    height: 1.625rem;
     font-size: var(--label-font-size);
     border: 1px solid green;
 }
@@ -463,7 +469,7 @@ input:checked + .slider:before {
     position: relative;
     min-width: 20.938rem;
     width: 100%;
-    height: 3.25rem;
+    height: 1.625rem;
     font-size: var(--label-font-size);
     border: 1px solid green;
 }
@@ -490,19 +496,21 @@ input:checked + .slider:before {
 
 .download-text a {
     text-decoration: none;
+    font-size: var(--link-font-size);
 }
 
 .download-text {
     border: 1px solid yellow;
-    font-size: var(--label-font-size);
+    font-size: var(--link-font-size);
     text-decoration: none;
     margin-right: .75rem;
 }
 
 .download-text a:hover {
-    font-size: var(--label-hover-font-size);
+    font-size: var(--link-hover-font-size);
     text-decoration: none;
     color: var(--blue);
+
 }
 
 .social-trio {
