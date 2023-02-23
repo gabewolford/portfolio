@@ -12,9 +12,7 @@
 
 
 ***Installation Instructions***
-<br>1.
-<br>2.
-<br>3.
+N/A
 
 
 ***User Stories***
