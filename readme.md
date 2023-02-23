@@ -9,11 +9,7 @@
 * HTML
 * CSS
 * JavaScript
-
-
-***Installation Instructions***
-N/A
-
+* the teeniest tiniest little bit of Bootstrap for the hamburger
 
 ***User Stories***
 * As a recruiter or hiring manager, I'd like to easily see the prospective employee's work history and skills, so that I can see if they are a good fit for the role.
@@ -24,8 +20,8 @@ N/A
 
 
 ***Wireframes & Designs ***
-<br> https://www.figma.com/file/4fHah5H4ngeqdEt8nqpXsK/portfolio-wireframes?t=eDHjth9PJHeakrgV-1
-<br> https://www.figma.com/file/ScL72x6fa422WHKVrC6MtZ/Untitled?node-id=0%3A1&t=fxoPrwGQLhXDW4LL-1
+<br>* https://www.figma.com/file/4fHah5H4ngeqdEt8nqpXsK/portfolio-wireframes?t=eDHjth9PJHeakrgV-1
+<br>* https://www.figma.com/file/ScL72x6fa422WHKVrC6MtZ/Untitled?node-id=0%3A1&t=fxoPrwGQLhXDW4LL-1
 ![Screen Shot 2023-02-18 at 11 03 18 PM](https://user-images.githubusercontent.com/98293872/219933928-0a05de27-2fc7-4ef4-affd-eb1976d2fc9b.png)
 ![Screen Shot 2023-02-18 at 11 01 48 PM](https://user-images.githubusercontent.com/98293872/219933885-bfaf47bf-72f8-40f8-b0e5-b1812f907cb2.png)
 
@@ -33,5 +29,7 @@ N/A
 
 ***Descriptions of any Unsolved problems or major hurdles you had to overcome***
 * dark mode is still a bit buggy, need to stay in dark mode when moving to other pages
-* 
-*
+* CSS is soaking wet. so much unneccesary dead code
+* still need to figure out hover state on home intro
+* desktop is responsive but struggled to get the exact layout i had hoped for. still need some practice with flexbox for sure...
+* overcomplicated the text decorations on the links, and now i can't get an underline to stay on the current page

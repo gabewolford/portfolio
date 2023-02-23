@@ -38,6 +38,7 @@
 _________________________________*/
 body {
     font-family: var(--font-family), 'Inter', Helvetica;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -84,7 +85,6 @@ body.dark-mode {
     margin: 4px;
 }
 
-
 .close-icon {
     position: absolute;
     top: 1.875rem;
@@ -96,6 +96,15 @@ body.dark-mode {
 .nav-item {
     color: var(--black);
     text-decoration: none;
+}
+
+.nav-item.mode {
+    display: flex;
+    align-items: center;
+}
+
+.dark-mode-text {
+    margin-right: .2rem;
 }
 
 .dark-mode-nav {
@@ -124,6 +133,8 @@ body.dark-mode {
     z-index: 50;
     color: var(--white)
 }
+
+
 
 /* dark mode toggle switch */
 .switch {
@@ -194,9 +205,10 @@ input:checked + .slider:before {
     align-items: center;
 }
 
-/* .h1-text {
-    border: 1px solid blue;
-} */
+.h1-text {
+    /* border: 1px solid blue; */
+    display: none;
+}
 
 /* work page */
 .flex-container {
@@ -217,7 +229,7 @@ input:checked + .slider:before {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 2.5rem;
+    margin-bottom: 4rem;
     min-width: 20.938rem;
     font-size: var(--h1-font-size);
     color: var(--dark-grey);
@@ -227,7 +239,7 @@ input:checked + .slider:before {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-bottom: 2.5rem;
+    margin-bottom: 4rem;
 }
 
 .right{
@@ -555,10 +567,6 @@ input:checked + .slider:before {
 /* TABLET CSS
 _________________________________*/
 @media only screen and (min-width: 768px) {
-    /* body {
-
-    } */
-
     .hamburger-icon {
         display: none;
     }
@@ -605,6 +613,10 @@ _________________________________*/
 
     .mode:hover {
         color: var(--blue);
+    }
+
+    .h1-text {
+        display: flex;
     }
 
     .intro img {
@@ -724,40 +736,6 @@ _________________________________*/
     }
 
     to {
-        transform: translateY(0);
-    }
-}
-
-/* work animation */
-@keyframes left-slide {
-    from {
-        left: -100%;
-    }
-
-    to {
-        left: 0%;
-    }
-}
-
-@keyframes right-slide {
-    from {
-        right: -100%;
-    }
-
-    to {
-        right: 0%;
-    }
-}
-
-
-
-/* me animation */
-@keyframes top-slide {
-    from {
-        transform: translateY(-100%);
-    }
-
-    to {
-        transform: translateY(0);
+        transform: translateY(0%);
     }
 }

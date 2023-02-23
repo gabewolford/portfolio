@@ -88,3 +88,15 @@ linkDefaultRight.forEach(linkDefaultRight => {
     })
 })
 
+linkDefaultRight.forEach(linkDefaultRight => {
+    const originalImgRight = linkDefaultRight.querySelector('img').src;
+    const newImgRight = '/assets/hover check it out right arrow.png';
+
+    linkDefaultRight.addEventListener('mouseenter', () => {
+        linkDefaultRight.querySelector('img').src = newImgRight;
+    });
+
+    linkDefaultRight.addEventListener('mouseleave', () => {
+        linkDefaultRight.querySelector('img').src = originalImgRight;
+    })
+})
