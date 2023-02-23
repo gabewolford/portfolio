@@ -45,6 +45,10 @@ body {
     color: var(--black);
 }
 
+#home-animation {
+    animation: bottom-slide 1s cubic-bezier(.91,-0.01,.66,.94) both;
+}
+
 a {
     font-size: var(--link-font-size);
     text-decoration: none;
@@ -53,7 +57,7 @@ a {
 .nav-menu a:hover {
     font-size: var(--link-hover-font-size);
     text-decoration: none;
-    color: var(--blue);
+    /* color: var(--blue); */
 }
 
 body.dark-mode {
@@ -220,11 +224,15 @@ input:checked + .slider:before {
 }
 
 .project-wrapper {
-    /* border: 1px solid green; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     margin-bottom: 2.5rem;
+}
+
+.right{
+    text-align: end;
+    justify-content: end;
 }
 
 /* .project-screenshot {
@@ -514,6 +522,7 @@ input:checked + .slider:before {
 .download-text a {
     text-decoration: none;
     font-size: var(--link-font-size);
+    color: var(--green)
 }
 
 .download-text {
@@ -564,10 +573,18 @@ _________________________________*/
         left: 6.25rem;
     }
 
+    .home:hover {
+        color: var(--pink);
+    }
+
     .work {
         position: fixed;
         top: 6.25rem;
         right: 6.25rem;
+    }
+
+    .work:hover {
+        color: var(--green);
     }
 
     .me {
@@ -576,10 +593,18 @@ _________________________________*/
         left: 6.25rem;
     }
 
+    .me:hover {
+        color: var(--orange);
+    }
+
     .mode {
         position: fixed;
         bottom: 6.25rem;
         right: 6.25rem;
+    }
+
+    .mode:hover {
+        color: var(--blue);
     }
 
     .intro img {
@@ -628,10 +653,6 @@ _________________________________*/
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-    }
-
-    .right{
-        justify-content: end;
     }
 
     .project-screenshot {
@@ -693,5 +714,50 @@ _________________________________*/
         width: 100%;
         margin-bottom: 3.125rem;
         /* border: 1px solid gold; */
+    }
+}
+
+/* home animation */
+@keyframes bottom-slide {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* work animation */
+@keyframes left-slide {
+    from {
+        left: -100%;
+    }
+
+    to {
+        left: 0%;
+    }
+}
+
+@keyframes right-slide {
+    from {
+        right: -100%;
+    }
+
+    to {
+        right: 0%;
+    }
+}
+
+
+
+/* me animation */
+@keyframes top-slide {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
     }
 }

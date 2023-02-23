@@ -26,6 +26,14 @@ const linkDefault = document.querySelectorAll('.link-default');
 
 toggleSwitch.addEventListener('change', switchTheme, false);
 
+const checkItOutLeft1 = document.querySelector('.left-arrow1');
+const checkItOutLeft2 = document.querySelector('.left-arrow2');
+console.log(checkItOutLeft1);
+console.log(checkItOutLeft2);
+const checkItOutRight1 = document.querySelector('.right-arrow1');
+const checkItOutRight2 = document.querySelector('.right-arrow2');
+console.log(checkItOutRight1);
+console.log(checkItOutRight2);
 
 function switchTheme(event) {
     if (event.target.checked) {
@@ -34,6 +42,10 @@ function switchTheme(event) {
         introImage.src = '/assets/mobile blurb dark.png';
         introBlurb.src = '/assets/hover desktop blurb dark.png';
         hamburgerImage.src = '/assets/white-hamburger.png';
+        checkItOutLeft1.src = '/assets/dark left arrow check it out.png';
+        checkItOutLeft1.src = '/assets/dark left arrow check it out.png';
+        checkItOutRight1.src = '/assets/dark check it out right arrow.png';
+        checkItOutRight2.src = '/assets/dark check it out right arrow.png';
     } else {
         // dark mode is off
         navItems.forEach(item => item.classList.remove('dark-mode-nav'));
@@ -58,15 +70,15 @@ darkModeToggle.addEventListener('click', darkMode);
 
 // link hover effects #3
 linkDefault.forEach(linkDefault => {
-    const originalImg = linkDefault.querySelector('img').src;
-    const newImg = '/assets/hover left arrow check it out.png';
+    const originalImgLeft = linkDefault.querySelector('img').src;
+    const newImgLeft = '/assets/hover left arrow check it out.png';
 
     linkDefault.addEventListener('mouseenter', () => {
-        linkDefault.querySelector('img').src = newImg;
+        linkDefault.querySelector('img').src = newImgLeft;
     });
 
     linkDefault.addEventListener('mouseleave', () => {
-        linkDefault.querySelector('img').src = originalImg;
+        linkDefault.querySelector('img').src = originalImgLeft;
     })
 })
 
