@@ -26,7 +26,6 @@ const introBlurb = document.querySelector('.h1-text');
 
 toggleSwitch.addEventListener('change', switchTheme, false);
 
-
 function switchTheme(event) {
     if (event.target.checked) {
         // dark mode is on
@@ -34,13 +33,14 @@ function switchTheme(event) {
         introImage.src = '/assets/mobile blurb dark.png';
         introBlurb.src = '/assets/hover desktop blurb dark.png';
         hamburgerImage.src = '/assets/white-hamburger.png';
-    
+        localStorage.setItem('theme', 'dark');
     } else {
         // dark mode is off
         navItems.forEach(item => item.classList.remove('dark-mode-nav'));
         introImage.src = '/assets/mobile blurb light.png';
         introBlurb.src = '/assets/hover desktop blurb light.png';
-        hamburgerImage.src = '/assets/black-hamburger.png'; 
+        hamburgerImage.src = '/assets/black-hamburger.png';
+        localStorage.setItem('theme', 'light');
     }
 }
 
@@ -49,12 +49,15 @@ function darkMode() {
     const hamburgerImage = document.querySelector('.hamburger-image');
     if (document.body.classList.contains('dark-mode')) {
         hamburgerImage.src = '/assets/white-hamburger.png';
+        localStorage.setItem('theme', 'dark');
     } else {
         hamburgerImage.src = '/assets/black-hamburger.png';
+        localStorage.setItem('theme', 'light');
     }
 }
 
 darkModeToggle.addEventListener('click', darkMode);
+
 
 
 // link hover effects #3
@@ -88,15 +91,14 @@ linkDefaultRight.forEach(linkDefaultRight => {
     })
 })
 
-linkDefaultRight.forEach(linkDefaultRight => {
-    const originalImgRight = linkDefaultRight.querySelector('img').src;
-    const newImgRight = '/assets/hover check it out right arrow.png';
 
-    linkDefaultRight.addEventListener('mouseenter', () => {
-        linkDefaultRight.querySelector('img').src = newImgRight;
-    });
 
-    linkDefaultRight.addEventListener('mouseleave', () => {
-        linkDefaultRight.querySelector('img').src = originalImgRight;
-    })
-})
+
+// const savedTheme = localStorage.getItem('theme');
+// toggleSwitch.checked = savedTheme === 'dark';
+// switchTheme({ target: { checked: toggleSwitch.checked } });
+
+// if (savedTheme === 'dark') {
+//   toggleSwitch.checked = true;
+//   switchTheme({ target: { checked: true } }); // manually trigger switchTheme to apply dark mode
+// }
