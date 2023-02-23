@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Vercetti-Regular';
-    src: url('/fonts/Vercetti-Regular.otf') format('opentype'), /* Modern Browsers */
-         url('/fonts/Vercetti-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+    src: url('/designs/fonts/Vercetti-Regular.otf') format('opentype'), /* Modern Browsers */
+         url('/designs/fonts/Vercetti-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
@@ -190,9 +190,9 @@ input:checked + .slider:before {
     align-items: center;
 }
 
-.h1-text {
-    /* border: 1px solid blue; */
-}
+/* .h1-text {
+    border: 1px solid blue;
+} */
 
 /* work page */
 .flex-container {
@@ -227,9 +227,9 @@ input:checked + .slider:before {
     margin-bottom: 2.5rem;
 }
 
-.project-screenshot {
-    /* border: 1px solid goldenrod */
-}
+/* .project-screenshot {
+    border: 1px solid goldenrod
+} */
 
 .cta {
     /* border: 1px solid magenta; */
@@ -501,16 +501,16 @@ input:checked + .slider:before {
     /* border: 1px solid blue; */
 }
 
-.download-duo {
-    /* border: 1px solid green; */
-}
+/* .download-duo {
+    border: 1px solid green;
+} */
 
 .download-arrow a {
     text-decoration: none;
 }
-.arrow {
-    /* border: 1px solid purple; */
-}
+/* .arrow {
+    border: 1px solid purple;
+} */
 
 .download-text a {
     text-decoration: none;
@@ -531,17 +531,17 @@ input:checked + .slider:before {
 
 }
 
-.social-trio {
-    /* border: 1px solid red; */
-}
+/* .social-trio {
+    border: 1px solid red;
+} */
 
 .social-links a {
     text-decoration: none;
 }
 
-.social-links a img {
-    /* border: 1px solid orange; */
-}
+/* .social-links a img {
+    border: 1px solid orange;
+} */
 
 
 /* TABLET CSS
