@@ -29,8 +29,7 @@
 
 
 ***Descriptions of any Unsolved problems or major hurdles you had to overcome***
-* dark mode is still a bit buggy, need to stay in dark mode when moving to other pages
-* CSS is soaking wet. so much unneccesary dead code
+* CSS is soaking wet
 * still need to figure out hover state on home intro
 * desktop is responsive but struggled to get the exact layout i had hoped for. still need some practice with flexbox for sure...
-* overcomplicated the text decorations on the links, and now i can't get an underline to stay on the current page
+
