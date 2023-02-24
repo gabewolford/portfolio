@@ -1,5 +1,4 @@
 
-
 // hamburger nav functionality #1
 const hamburgerIcon = document.querySelector('.hamburger-icon');
 const closeIcon = document.querySelector('.close-icon')
@@ -25,41 +24,48 @@ const toggleSwitch = document.querySelector('.switch input[type="checkbox"]');
 const navItems = document.querySelectorAll('.nav-item');
 const introBlurb = document.querySelector('.h1-text');
 
-
-toggleSwitch.addEventListener('change', switchTheme, false);
-
-function switchTheme(event) {
-    if (event.target.checked) {
+function switchTheme() {
+    if (localStorage.theme === 'dark') {
         // dark mode is on
         navItems.forEach(item => item.classList.add('dark-mode-nav'));
-        introImage.src = '/assets/mobile blurb dark.png';
-        introBlurb.src = '/assets/hover desktop blurb dark.png';
+        document.body.classList.add('dark-mode');
+        if (location.pathname === '/' || location.pathname === '/index.html') {
+            introImage.src = '../assets/mobile blurb dark.png'; 
+            introBlurb.src = '../assets/hover desktop blurb dark.png'; 
+        }
         hamburgerImage.src = '/assets/white-hamburger.png';
-        localStorage.setItem('theme', 'dark');
     } else {
         // dark mode is off
         navItems.forEach(item => item.classList.remove('dark-mode-nav'));
-        introImage.src = '/assets/mobile blurb light.png';
-        introBlurb.src = '/assets/hover desktop blurb light.png';
+        document.body.classList.remove('dark-mode');
+        if (location.pathname === '/' || location.pathname === '/index.html') {
+            introImage.src = '../assets/mobile blurb light.png';
+            introBlurb.src = '../assets/hover desktop blurb light.png';
+        }
         hamburgerImage.src = '/assets/black-hamburger.png';
-        localStorage.setItem('theme', 'light');
     }
 }
 
+if (localStorage.theme === 'dark') {
+    toggleSwitch.checked = true;
+}
+else {
+    toggleSwitch.checked = false;
+}
+
+switchTheme();
+
 function darkMode() {
-    document.body.classList.toggle('dark-mode');
-    const hamburgerImage = document.querySelector('.hamburger-image');
-    if (document.body.classList.contains('dark-mode')) {
-        hamburgerImage.src = '/assets/white-hamburger.png';
+    if (localStorage.theme === 'light') {
         localStorage.setItem('theme', 'dark');
+
     } else {
-        hamburgerImage.src = '/assets/black-hamburger.png';
         localStorage.setItem('theme', 'light');
     }
+    switchTheme();
 }
 
 darkModeToggle.addEventListener('click', darkMode);
-
 
 
 // link hover effects #3
@@ -112,13 +118,3 @@ $(document).ready(function() {
         $('.modal').css('display', 'none');
     });
 });
-  
-
-// const savedTheme = localStorage.getItem('theme');
-// toggleSwitch.checked = savedTheme === 'dark';
-// switchTheme({ target: { checked: toggleSwitch.checked } });
-
-// if (savedTheme === 'dark') {
-//   toggleSwitch.checked = true;
-//   switchTheme({ target: { checked: true } }); // manually trigger switchTheme to apply dark mode
-// }
