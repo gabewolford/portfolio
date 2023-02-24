@@ -1,3 +1,5 @@
+
+
 // hamburger nav functionality #1
 const hamburgerIcon = document.querySelector('.hamburger-icon');
 const closeIcon = document.querySelector('.close-icon')
@@ -92,7 +94,25 @@ linkDefaultRight.forEach(linkDefaultRight => {
 })
 
 
+// resume modal functionality #4 (special thanks to jquery and chatGPT)
+$(document).ready(function() {
+    $('.download-resume, .download-arrow').click(function() {
+        // get the resume URL from the "href" attribute of the "download resume" link
+        var resumeUrl = $(this).prev().find('a').attr('href');
+        
+        // set the URL of the iframe to the resume URL
+        $('#resume-frame').attr('src', resumeUrl);
 
+        // display the modal window
+        $('.modal').css('display', 'block');
+    });
+
+    $('.close-modal').click(function() {
+        // hide the modal window when the "x" button is clicked
+        $('.modal').css('display', 'none');
+    });
+});
+  
 
 // const savedTheme = localStorage.getItem('theme');
 // toggleSwitch.checked = savedTheme === 'dark';

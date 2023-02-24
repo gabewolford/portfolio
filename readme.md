@@ -10,6 +10,7 @@
 * CSS
 * JavaScript
 * the teeniest tiniest little bit of Bootstrap for the hamburger
+* and little bit of jquery for the resume modal feature
 
 ***User Stories***
 * As a recruiter or hiring manager, I'd like to easily see the prospective employee's work history and skills, so that I can see if they are a good fit for the role.
