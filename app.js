@@ -30,19 +30,19 @@ function switchTheme() {
         navItems.forEach(item => item.classList.add('dark-mode-nav'));
         document.body.classList.add('dark-mode');
         if (location.pathname === '/' || location.pathname === '/index.html') {
-            introImage.src = '../assets/mobile blurb dark.png'; 
-            introBlurb.src = '../assets/hover desktop blurb dark.png'; 
+            introImage.src = 'assets/mobile blurb dark.png'; 
+            introBlurb.src = 'assets/hover desktop blurb dark.png'; 
         }
-        hamburgerImage.src = '/assets/white-hamburger.png';
+        hamburgerImage.src = 'assets/white-hamburger.png';
     } else {
         // dark mode is off
         navItems.forEach(item => item.classList.remove('dark-mode-nav'));
         document.body.classList.remove('dark-mode');
         if (location.pathname === '/' || location.pathname === '/index.html') {
-            introImage.src = '../assets/mobile blurb light.png';
-            introBlurb.src = '../assets/hover desktop blurb light.png';
+            introImage.src = 'assets/mobile blurb light.png';
+            introBlurb.src = 'assets/hover desktop blurb light.png';
         }
-        hamburgerImage.src = '/assets/black-hamburger.png';
+        hamburgerImage.src = 'assets/black-hamburger.png';
     }
 }
 
@@ -73,7 +73,7 @@ const linkDefaultLeft = document.querySelectorAll('.link-default-left');
 
 linkDefaultLeft.forEach(linkDefaultLeft => {
     const originalImgLeft = linkDefaultLeft.querySelector('img').src;
-    const newImgLeft = '/assets/hover left arrow check it out.png';
+    const newImgLeft = 'assets/hover left arrow check it out.png';
 
     linkDefaultLeft.addEventListener('mouseenter', () => {
         linkDefaultLeft.querySelector('img').src = newImgLeft;
@@ -88,7 +88,7 @@ const linkDefaultRight = document.querySelectorAll('.link-default-right');
 
 linkDefaultRight.forEach(linkDefaultRight => {
     const originalImgRight = linkDefaultRight.querySelector('img').src;
-    const newImgRight = '/assets/hover check it out right arrow.png';
+    const newImgRight = 'assets/hover check it out right arrow.png';
 
     linkDefaultRight.addEventListener('mouseenter', () => {
         linkDefaultRight.querySelector('img').src = newImgRight;

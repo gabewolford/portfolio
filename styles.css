@@ -44,7 +44,7 @@ body {
     justify-content: center;
     background-color: var(--white);
     color: var(--black);
-    cursor: url('/designs/yellow\ smiley\ face.cur'), auto;
+    cursor: url('designs/yellow smiley face.cur'), auto;
 }
 
 #home-animation {
@@ -54,7 +54,7 @@ body {
 a {
     font-size: var(--link-font-size);
     text-decoration: none;
-    cursor: url('/designs/yellow\ smiley\ face.cur'), auto;
+    cursor: url('designs/yellow smiley face.cur'), auto;
 }
 
 .nav-menu a:hover {
