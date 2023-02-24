@@ -1,4 +1,3 @@
-
 // hamburger nav functionality #1
 const hamburgerIcon = document.querySelector('.hamburger-icon');
 const closeIcon = document.querySelector('.close-icon')
@@ -30,22 +29,23 @@ function switchTheme() {
         navItems.forEach(item => item.classList.add('dark-mode-nav'));
         document.body.classList.add('dark-mode');
         if (location.pathname === '/' || location.pathname === '/index.html') {
-            introImage.src = 'assets/mobile blurb dark.png'; 
-            introBlurb.src = 'assets/hover desktop blurb dark.png'; 
+            introImage.src = '/assets/mobile blurb dark.png'; 
+            introBlurb.src = '/assets/hover desktop blurb dark.png'; 
         }
-        hamburgerImage.src = 'assets/white-hamburger.png';
+        hamburgerImage.src = '/assets/white-hamburger.png';
     } else {
         // dark mode is off
         navItems.forEach(item => item.classList.remove('dark-mode-nav'));
         document.body.classList.remove('dark-mode');
         if (location.pathname === '/' || location.pathname === '/index.html') {
-            introImage.src = 'assets/mobile blurb light.png';
-            introBlurb.src = 'assets/hover desktop blurb light.png';
+            introImage.src = '/assets/mobile blurb light.png';
+            introBlurb.src = '/assets/hover desktop blurb light.png';
         }
-        hamburgerImage.src = 'assets/black-hamburger.png';
+        hamburgerImage.src = '/assets/black-hamburger.png';
     }
 }
 
+// reset switch based on which theme is in local storage
 if (localStorage.theme === 'dark') {
     toggleSwitch.checked = true;
 }
@@ -58,7 +58,6 @@ switchTheme();
 function darkMode() {
     if (localStorage.theme === 'light') {
         localStorage.setItem('theme', 'dark');
-
     } else {
         localStorage.setItem('theme', 'light');
     }
@@ -66,7 +65,6 @@ function darkMode() {
 }
 
 darkModeToggle.addEventListener('click', darkMode);
-
 
 // link hover effects #3
 const linkDefaultLeft = document.querySelectorAll('.link-default-left');
@@ -98,7 +96,6 @@ linkDefaultRight.forEach(linkDefaultRight => {
         linkDefaultRight.querySelector('img').src = originalImgRight;
     })
 })
-
 
 // resume modal functionality #4 (special thanks to jquery and chatGPT)
 $(document).ready(function() {
