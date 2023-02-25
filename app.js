@@ -28,7 +28,7 @@ function switchTheme() {
         // dark mode is on
         navItems.forEach(item => item.classList.add('dark-mode-nav'));
         document.body.classList.add('dark-mode');
-        if (location.pathname === '/' || location.pathname === '/index.html') {
+        if (location.pathname === '/' || location.pathname === '/index.html' || location.pathname === '/portfolio/' || location.pathname === '/portfolio/index.html') {
             console.log('hello');
             introImage.src = 'assets/mobile-blurb-dark.png'; 
             introBlurb.src = 'assets/desktop-blurb-dark.png'; 
@@ -38,7 +38,7 @@ function switchTheme() {
         // dark mode is off
         navItems.forEach(item => item.classList.remove('dark-mode-nav'));
         document.body.classList.remove('dark-mode');
-        if (location.pathname === '/' || location.pathname === '/index.html') {
+        if (location.pathname === '/' || location.pathname === '/index.html' || location.pathname === '/portfolio/' || location.pathname === '/portfolio/index.html') {
             introImage.src = 'assets/mobile-blurb-light.png';
             introBlurb.src = 'assets/desktop-blurb-light.png';
         }
