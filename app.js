@@ -29,6 +29,7 @@ function switchTheme() {
         navItems.forEach(item => item.classList.add('dark-mode-nav'));
         document.body.classList.add('dark-mode');
         if (location.pathname === '/' || location.pathname === '/index.html') {
+            console.log('hello');
             introImage.src = 'assets/mobile-blurb-dark.png'; 
             introBlurb.src = 'assets/desktop-blurb-dark.png'; 
         }
