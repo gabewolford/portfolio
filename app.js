@@ -29,19 +29,19 @@ function switchTheme() {
         navItems.forEach(item => item.classList.add('dark-mode-nav'));
         document.body.classList.add('dark-mode');
         if (location.pathname === '/' || location.pathname === '/index.html') {
-            introImage.src = '/assets/mobile blurb dark.png'; 
-            introBlurb.src = '/assets/hover desktop blurb dark.png'; 
+            introImage.src = 'assets/mobile-blurb-dark.png'; 
+            introBlurb.src = 'assets/desktop-blurb-dark.png'; 
         }
-        hamburgerImage.src = '/assets/white-hamburger.png';
+        hamburgerImage.src = 'assets/white-hamburger.png';
     } else {
         // dark mode is off
         navItems.forEach(item => item.classList.remove('dark-mode-nav'));
         document.body.classList.remove('dark-mode');
         if (location.pathname === '/' || location.pathname === '/index.html') {
-            introImage.src = '/assets/mobile blurb light.png';
-            introBlurb.src = '/assets/hover desktop blurb light.png';
+            introImage.src = 'assets/mobile-blurb-light.png';
+            introBlurb.src = 'assets/desktop-blurb-light.png';
         }
-        hamburgerImage.src = '/assets/black-hamburger.png';
+        hamburgerImage.src = 'assets/black-hamburger.png';
     }
 }
 
