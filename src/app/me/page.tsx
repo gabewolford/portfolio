@@ -36,7 +36,14 @@ export default function MePage() {
             <div className="animate__animated animate__fadeIn mt-16 pb-24 max-w-[80vw] md:max-w-[70vw] mx-auto text-sm">
                 
                 <div className="fade-in show grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center mt-24 md:mt-32">
-                    <img className="rounded-full mx-auto" src="/images/vla.png" alt="profile photo" />
+                    <Image
+                        src="/images/vla.png"
+                        alt="profile photo"
+                        width={0}
+                        height={0}
+                        style={{ width: '100%', height: 'auto' }}
+                        className='rounded-full mx-auto'
+                    />
                     <div className="">
                         <h1 className="text-3xl md:text-4xl mb-5">a lil bit about me</h1>
                         <p className="mb-4">i'm gabe, a full stack developer based in portland, oregon specializing in react applications and front-end technologies, with expertise in node.js, tailwind, and responsive design. i have a proven ability to deliver high-quality & visually appealing web applications and skilled in building robust & scalable solutions. i collaborate well with cross-functional design & product teams every step of the way. i am committed to staying up-to-date with the latest trends and delivering exceptional user experiences.</p>

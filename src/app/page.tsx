@@ -1,4 +1,3 @@
-// import { Helmet } from "react-helmet"
 import Head from 'next/head'
 import 'animate.css'    
 
@@ -10,7 +9,6 @@ export default function HomePage() {
                 <link
                   rel="icon"
                   href="/images/pink.png"
-                  sizes="32x32"
                 />
                 <meta name="description" content="Hey there, I'm Gabe. I'm a full stack developer based in Portland, OR. " />
             </Head>
