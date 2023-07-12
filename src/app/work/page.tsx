@@ -34,7 +34,7 @@ export default function WorkPage() {
             </Head>
             <div className="animate__animated animate__fadeIn mt-24 pb-36 max-w-[80vw] lg:max-w-[70vw] mx-auto">
                 <header className="text-center text-3xl md:text-4xl font-bold mb-16">
-                        <h1>things i've built</h1>
+                        <h1>things i&apos;ve built</h1>
                 </header>
 
                 <section className="fade-in show flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">

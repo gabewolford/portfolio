@@ -36,18 +36,11 @@ export default function MePage() {
             <div className="animate__animated animate__fadeIn mt-16 pb-24 max-w-[80vw] md:max-w-[70vw] mx-auto text-sm">
                 
                 <div className="fade-in show grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center mt-24 md:mt-32">
-                    <Image
-                        src="/images/vla.png"
-                        alt="profile photo"
-                        width={0}
-                        height={0}
-                        style={{ width: '100%', height: 'auto' }}
-                        className='rounded-full mx-auto'
-                    />
+                    <Image className="rounded-full mx-auto" fill src='/images/vla.png' alt="profile photo" />
                     <div className="">
                         <h1 className="text-3xl md:text-4xl mb-5">a lil bit about me</h1>
-                        <p className="mb-4">i'm gabe, a full stack developer based in portland, oregon specializing in react applications and front-end technologies, with expertise in node.js, tailwind, and responsive design. i have a proven ability to deliver high-quality & visually appealing web applications and skilled in building robust & scalable solutions. i collaborate well with cross-functional design & product teams every step of the way. i am committed to staying up-to-date with the latest trends and delivering exceptional user experiences.</p>
-                        <p className=''>in my spare time you can find me outside, riding my bike on a variety of different surfaces. if i'm not doing that, i'm probably making a mean sandwich or exploring the PNW with my dog and my partner. as a lifelong learner, space fanatic, and amateur astronomer, i love reading about the universe & the current state of space exploration.</p>
+                        <p className="mb-4">i&apos;m gabe, a full stack developer based in portland, oregon specializing in react applications and front-end technologies, with expertise in node.js, tailwind, and responsive design. i have a proven ability to deliver high-quality & visually appealing web applications and skilled in building robust & scalable solutions. i collaborate well with cross-functional design & product teams every step of the way. i am committed to staying up-to-date with the latest trends and delivering exceptional user experiences.</p>
+                        <p className=''>in my spare time you can find me outside, riding my bike on a variety of different surfaces. if i&apos;m not doing that, i&apos;m probably making a mean sandwich or exploring the PNW with my dog and my partner. as a lifelong learner, space fanatic, and amateur astronomer, i love reading about the universe & the current state of space exploration.</p>
                     </div>
                 </div>
 
@@ -81,13 +74,7 @@ export default function MePage() {
                       target="_blank" 
                       className="mr-1.5"
                     >
-                      <Image
-                        src="/images/download.png"
-                        alt="download button"
-                        width={0}
-                        height={0}
-                        style={{ width: '100%', height: 'auto' }}
-                      />
+                      <Image src='/images/download.png' fill alt="download-button"/>
                     </Link>
                     
                     <Link 
@@ -103,12 +90,7 @@ export default function MePage() {
                       target='_blank' 
                       className="mr-2"
                     >
-                      <Image
-                        src="/images/email.png"
-                        alt="email"
-                        width={0}
-                        height={0}
-                        style={{ width: '100%', height: 'auto' }}
+                      <Image src="/images/email.png" fill alt="email"
                       />
                     </Link>
 
@@ -117,26 +99,14 @@ export default function MePage() {
                       target='_blank' 
                       className="mr-2"
                     >
-                      <Image
-                        src="/images/linkedin.png"
-                        alt="linked in"
-                        width={0}
-                        height={0}
-                        style={{ width: '100%', height: 'auto' }}
-                      />
+                      <Image src="/images/linkedin.png" fill alt="linked in"/>
                     </Link>
 
                     <Link 
                       href="https://github.com/gabewolford" 
                       target='_blank'
                     >
-                      <Image
-                        src="/images/github.png"
-                        alt="github"
-                        width={0}
-                        height={0}
-                        style={{ width: '100%', height: 'auto' }}
-                      />
+                      <Image src="/images/github.png" fill alt="github"/>
                     </Link>
                 </div>
             </div>
