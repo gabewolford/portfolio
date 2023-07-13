@@ -113,7 +113,7 @@ export default function WorkPage() {
 
                 <section className="fade-in flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16">
                     <div className='order-last md:order-first max-h-96 overflow-auto scrollbar-hide'>
-                        <img src='/images/islamorada.png' alt="gregslist screenshot" />
+                        <img src='/images/gregslist.png' alt="gregslist screenshot" />
                     </div>
                     
                     <div>
