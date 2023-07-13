@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect } from 'react'
-import Head from 'next/head'
 import Link from 'next/link'
 
 export default function WorkPage() {
@@ -27,11 +26,10 @@ export default function WorkPage() {
 
     return (
         <>
-            <Head>
-                <title>gabe wolford | work</title>
-                <link rel="icon" href='/images/green.png' />
-                <meta name="description" content="some of the work i've done" />
-            </Head>
+            <head>
+              <title>gabe wolford | work</title>
+              <link rel="icon" href="/images/green.png"/>
+            </head>
             <div className="animate__animated animate__fadeIn mt-24 pb-36 max-w-[80vw] lg:max-w-[70vw] mx-auto">
                 <header className="text-center text-3xl md:text-4xl font-bold mb-16">
                         <h1>things i&apos;ve built</h1>

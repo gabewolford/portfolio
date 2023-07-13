@@ -1,17 +1,12 @@
-import Head from 'next/head'
 import 'animate.css'    
 
 export default function HomePage() {
     return (
         <>
-            <Head>
-                <title>gabe wolford</title>
-                <link
-                  rel="icon"
-                  href="/images/pink.png"
-                />
-                <meta name="description" content="Hey there, I'm Gabe. I'm a full stack developer based in Portland, OR. " />
-            </Head>
+            <head>
+              <title>gabe wolford</title>
+              <link rel="icon" href="/images/pink.png"/>
+            </head>
             <h1 className="grid h-screen place-items-center text-3xl mx-auto md:text-4xl ml-10 md:mx-12 animate__animated animate__fadeIn">
                 <div className="leading-tight tracking-normal cursor-default">
                     <span>hey there, i&apos;m </span>

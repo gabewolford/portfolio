@@ -1,9 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
-import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
 
 export default function MePage() {
     useEffect(() => {
@@ -28,15 +26,15 @@ export default function MePage() {
 
     return (
         <>
-            <Head>
-                <title>gabe wolford | me</title>
-                <link rel="icon" href='/images/orange.png' />
-                <meta name="description" content="a lil bit about me" />
-            </Head>
+            <head>
+              <title>gabe wolford | me</title>
+              <link rel="icon" href="/images/orange.png"/>
+            </head>
+
             <div className="animate__animated animate__fadeIn mt-16 pb-24 max-w-[80vw] md:max-w-[70vw] mx-auto text-sm">
                 
                 <div className="fade-in show grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center mt-24 md:mt-32">
-                    <Image className="rounded-full mx-auto" fill src='/images/vla.png' alt="profile photo" />
+                    <img className="rounded-full mx-auto" src='/images/vla.png' alt="profile photo" />
                     <div className="">
                         <h1 className="text-3xl md:text-4xl mb-5">a lil bit about me</h1>
                         <p className="mb-4">i&apos;m gabe, a full stack developer based in portland, oregon specializing in react applications and front-end technologies, with expertise in node.js, tailwind, and responsive design. i have a proven ability to deliver high-quality & visually appealing web applications and skilled in building robust & scalable solutions. i collaborate well with cross-functional design & product teams every step of the way. i am committed to staying up-to-date with the latest trends and delivering exceptional user experiences.</p>
@@ -74,7 +72,7 @@ export default function MePage() {
                       target="_blank" 
                       className="mr-1.5"
                     >
-                      <Image src='/images/download.png' fill alt="download-button"/>
+                      <img src='/images/download.png' alt="download-button"/>
                     </Link>
                     
                     <Link 
@@ -90,7 +88,7 @@ export default function MePage() {
                       target='_blank' 
                       className="mr-2"
                     >
-                      <Image src="/images/email.png" fill alt="email"
+                      <img src="/images/email.png" alt="email"
                       />
                     </Link>
 
@@ -99,14 +97,14 @@ export default function MePage() {
                       target='_blank' 
                       className="mr-2"
                     >
-                      <Image src="/images/linkedin.png" fill alt="linked in"/>
+                      <img src="/images/linkedin.png" alt="linked in"/>
                     </Link>
 
                     <Link 
                       href="https://github.com/gabewolford" 
                       target='_blank'
                     >
-                      <Image src="/images/github.png" fill alt="github"/>
+                      <img src="/images/github.png" alt="github"/>
                     </Link>
                 </div>
             </div>
