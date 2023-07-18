@@ -43,7 +43,7 @@ export default function WorkPage() {
                         <p className="text-md">react application</p>
                         <p className="text-xs mb-2 text-dark-grey">april 2023</p>
                     
-                        <p className="text-sm mb-2">information architecture overhaul, SEO, site migration, and frontend facelift using react, node, tailwind, vercel</p>
+                        <p className="text-sm mb-2">information architecture overhaul, SEO, site migration, and frontend facelift using react, next, node, tailwind, vercel</p>
                         <div className="flex items-center">
                             <Link href="https://islamoradafishingguidesandcharters.com/" target="_blank">
                                 <span className="text-blue text-md hover:text-pink hover:underline hover:underline-offset-8 hover:decoration-2">check it out</span>
