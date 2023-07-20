@@ -1,37 +1,22 @@
-'use client'
-
-import { useEffect } from 'react'
+import Observer from '../components/utils/Observer'
 import Link from 'next/link'
 
-export default function MePage() {
-    useEffect(() => {
-        const cards = document.querySelectorAll('.fade-in')
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                entry.target.classList.toggle('show', entry.isIntersecting)
-                if (entry.isIntersecting) {
-                    observer.unobserve(entry.target)
-                }
-            })
-        },
-        {
-            threshold: .25,
-        }
-    )
+export const metadata = {
+  title: "gabe wolford | about me",
+  icons: {
+    icon: "/images/orange.png"
+  },
+  description: "i\'m gabe, a full stack developer based in portland, oregon specializing in react applications and front-end technologies, with expertise in node.js, next.js, tailwind, and responsive design. i have a proven ability to deliver high-quality & visually appealing web applications and skilled in building robust & scalable solutions. i collaborate well with cross-functional design & product teams every step of the way. i am committed to staying up-to-date with the latest trends and delivering exceptional user experiences.",
+  keywords: "software, developer, software engineer, full stack developer, full stack software engineer, web developer, frontend developer, react, node, next, react.js, node.js, next.js, tailwind"
+}
 
-    cards.forEach(card => {
-        observer.observe(card)
-    })
-    }, [])
+export default function MePage() {
 
     return (
         <>
-            <head>
-              <title>gabe wolford | me</title>
-              <link rel="icon" href="/images/orange.png"/>
-            </head>
+            <Observer />
 
-            <div className="animate__animated animate__fadeIn mt-16 pb-24 max-w-[80vw] md:max-w-[70vw] mx-auto text-sm">
+            <main className="animate__animated animate__fadeIn mt-16 pb-24 max-w-[80vw] md:max-w-[70vw] mx-auto text-sm">
                 
                 <div className="fade-in show grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center mt-24 md:mt-32">
                     <img className="rounded-full mx-auto" src='/images/vla.png' alt="profile photo" />
@@ -107,7 +92,7 @@ export default function MePage() {
                       <img src="/images/github.png" alt="github"/>
                     </Link>
                 </div>
-            </div>
+            </main>
         </>
     )
 }
