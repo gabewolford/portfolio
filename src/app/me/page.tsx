@@ -38,7 +38,7 @@ export default function MePage() {
                     <div className="">
                         <h1 className="text-3xl md:text-4xl mb-5">a lil bit about me</h1>
                         <p className="mb-4">i&apos;m gabe, a full stack developer based in portland, oregon specializing in react applications and front-end technologies, with expertise in node.js, next.js, tailwind, and responsive design. i have a proven ability to deliver high-quality & visually appealing web applications and skilled in building robust & scalable solutions. i collaborate well with cross-functional design & product teams every step of the way. i am committed to staying up-to-date with the latest trends and delivering exceptional user experiences.</p>
-                        <p className=''>in my spare time you can find me outside, riding my bike on a variety of different surfaces. if i&apos;m not doing that, i&apos;m probably making a mean sandwich or exploring the PNW with my dog and my partner. as a lifelong learner, space fanatic, and amateur astronomer, i love reading about the universe & the current state of space exploration.</p>
+                        <p >in my spare time you can find me outside, riding my bike on a variety of different surfaces. if i&apos;m not doing that, i&apos;m probably making a mean sandwich or exploring the PNW with my dog and my partner. as a lifelong learner, space fanatic, and amateur astronomer, i love reading about the universe & the current state of space exploration.</p>
                     </div>
                 </div>
 
@@ -47,7 +47,7 @@ export default function MePage() {
                 <div className="fade-in grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-14">
                     <div className="mb-10">
                         <h5 className="text-dark-grey mb-3 hover:text-green">languages</h5>
-                        <p>javascript, typescript, python, html5, css3, sql</p>
+                        <p>javascript, typescript, python, html5, css3, php, sql</p>
                     </div>
 
                     <div className="mb-10">
@@ -61,8 +61,8 @@ export default function MePage() {
                     </div>
 
                     <div className="mb-20">
-                        <h5 className="text-dark-grey mb-3 hover:text-yellow">tools</h5>
-                        <p>vite, vercel, git, github, mongoose, postman, aws, google, figma, vs code</p>
+                        <h5 className="text-dark-grey mb-3 hover:text-yellow">systems & tools</h5>
+                        <p>vite, vercel, sanity, wordpress, cms, headless cms git, mongoose, prisma, postman, aws, google, figma, vs code</p>
                     </div>
                 </div>
                     
