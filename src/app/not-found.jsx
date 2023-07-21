@@ -6,7 +6,6 @@ export default function NotFound() {
             <span className="text-dark-grey hover:text-blue transition ease-in-out duration-500">Not </span>
             <span className="text-green hover:text-yellow transition ease-in-out duration-400">Found</span>
         </span>
-        
     </h1>
   )
 }
