@@ -32,12 +32,12 @@ export default function MePage() {
                 <div className="fade-in grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-14">
                     <div className="mb-10">
                         <h5 className="text-dark-grey mb-3 hover:text-green">languages</h5>
-                        <p>javascript, typescript, python, html5, css3, php, sql</p>
+                        <p>javascript, typescript, python, html5, css3, liquid, php, sql</p>
                     </div>
 
                     <div className="mb-10">
                         <h5 className="text-dark-grey mb-3 hover:text-orange">frameworks</h5>
-                        <p>react, node, next, express, django, tailwind</p>
+                        <p>react, next, node, hydrogen, express, django, tailwind</p>
                     </div>
 
                     <div className="mb-10">
@@ -47,7 +47,7 @@ export default function MePage() {
 
                     <div className="mb-20">
                         <h5 className="text-dark-grey mb-3 hover:text-yellow">systems & tools</h5>
-                        <p>vite, vercel, sanity, wordpress, cms, headless cms git, mongoose, prisma, postman, aws, google, figma, vs code</p>
+                        <p>vite, vercel, sanity, shopify, square, wordpress, cms, headless cms git, mongoose, prisma, postman, aws, google, figma, vs code</p>
                     </div>
                 </div>
                     
