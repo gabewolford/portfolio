@@ -21,6 +21,32 @@ export default function WorkPage() {
                         <h1>things i&apos;ve built</h1>
                 </header>
 
+                <section className="fade-in flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
+                    <div className='order-last md:order-first max-h-96 overflow-auto scrollbar-hide'>
+                        <img src='/images/biiig-stretch-screenshot.png' alt="biiig stretch screenshot" />
+                    </div>
+                    
+                    <div>
+                        <div className="flex flex-col md:mr-20">
+                            <Link href="https://github.com/gabewolford/biiig-stretch" target="_blank">
+                                <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 pt-4 mb-1 transition ease-in-out duration-300">biiig stretch studio</h4>
+                            </Link>
+                            <p className="text-md">react application</p>
+                            <p className="text-xs mb-2 text-dark-grey">july 2023</p>
+                        
+                            <p className="text-sm mb-2">next.js, react, node, tailwind, javascript, vercel, figma</p>
+                            <div className="flex items-center">
+                                <Link href="https://biiigstretch.studio/" target="_blank">
+                                    <img className="w-6 mr-2" src='/images/left-arrow.svg' alt='left arrow'/>
+                                </Link>
+                                <Link href="https://biiigstretch.studio/" target="_blank">
+                                    <span className="text-blue text-md hover:text-pink hover:underline hover:underline-offset-8 hover:decoration-2">check it out</span>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 <section className="fade-in show flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
                     <div className="flex flex-col md:ml-20">
                         <Link href="https://github.com/gabewolford/islamorada-fishing" target="_blank">
