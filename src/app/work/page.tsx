@@ -18,10 +18,34 @@ export default function WorkPage() {
             <Observer />
             <main className="animate__animated animate__fadeIn mt-24 pb-36 max-w-[80vw] lg:max-w-[70vw] mx-auto">
                 <header className="text-center text-3xl md:text-4xl font-bold mb-16">
-                        <h1>things i&apos;ve built</h1>
+                        <h1>highlighted work</h1>
                 </header>
 
-                <section className="fade-in flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
+                <section className="fade-in show flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
+                    <div className="flex flex-col md:ml-20">
+                        <Link href="https://github.com/gabewolford/" target="_blank">
+                            <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-1 transition ease-in-out duration-300">team oregon</h4>
+                        </Link>
+                        <p className="text-md">react application</p>
+                        <p className="text-xs mb-2 text-dark-grey">july 2023</p>
+                    
+                        <p className="text-sm mb-2">full stack development, web design, technical SEO, digital strategy, webmaster services, domains & hosting, next, react, tailwind, vercel</p>
+                        <div className="flex items-center">
+                            <p>
+                                <span className="text-blue text-md hover:text-pink hover:underline hover:underline-offset-8 hover:decoration-2">in progress</span>
+                            </p>
+                            <Link href="https://islamoradafishingguidesandcharters.com/" target="_blank">
+                                <img className="w-6 ml-2" src='/images/right-arrow.svg' alt='right arrow'/>
+                            </Link>
+                        </div>
+                    </div>
+                    
+                    <div className='order-last max-h-96 overflow-auto scrollbar-hide'>
+                        <img src='/images/teamoregon.png' alt="team oregon screenshot" />
+                    </div>
+                </section>
+
+                <section className="fade-in show flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
                     <div className='order-last md:order-first max-h-96 overflow-auto scrollbar-hide'>
                         <img src='/images/biiig-stretch-screenshot.png' alt="biiig stretch screenshot" />
                     </div>
@@ -70,7 +94,6 @@ export default function WorkPage() {
                         <img src='/images/islamorada.png' alt="islamorada fishing screenshot" />
                     </div>
                 </section>
-
 
                 <section className="fade-in flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
                     <div className='order-last md:order-first max-h-96 overflow-auto scrollbar-hide'>
