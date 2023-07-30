@@ -22,8 +22,34 @@ export default function WorkPage() {
                 </header>
 
                 <section className="fade-in show flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
+                    <div className='order-last md:order-first lg:w-3/5 max-h-96 overflow-auto scrollbar-hide'>
+                        <img src='/images/smallhound.png' alt="small hound screenshot" />
+                    </div>
+                    
+                    <div>
+                        <div className="flex flex-col md:mr-20">
+                            <Link href="https://github.com/gabewolford/small-hound" target="_blank">
+                                <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 pt-4 mb-1 transition ease-in-out duration-300">small hound</h4>
+                            </Link>
+                            <p className="text-md">react application</p>
+                            <p className="text-xs mb-2 text-dark-grey">july 2023</p>
+                        
+                            <p className="text-sm mb-2">next.js, react, node, tailwind, javascript, vercel, figma</p>
+                            <div className="flex items-center">
+                                <Link href="https://smallhound.co" target="_blank">
+                                    <img className="w-6 mr-2" src='/images/left-arrow.svg' alt='left arrow'/>
+                                </Link>
+                                <Link href="https://smallhound.co" target="_blank">
+                                    <span className="text-blue text-md hover:text-pink hover:underline hover:underline-offset-8 hover:decoration-2">check it out</span>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="fade-in show flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
                     <div className="flex flex-col md:ml-20">
-                        <Link href="https://github.com/gabewolford/" target="_blank">
+                        <Link href="https://github.com/gabewolford/team-oregon" target="_blank">
                             <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-1 transition ease-in-out duration-300">team oregon</h4>
                         </Link>
                         <p className="text-md">react application</p>
@@ -31,10 +57,10 @@ export default function WorkPage() {
                     
                         <p className="text-sm mb-2">full stack development, web design, technical SEO, digital strategy, webmaster services, domains & hosting, next, react, tailwind, vercel</p>
                         <div className="flex items-center">
-                            <p>
+                            <Link href="https://teamoregon.net/" target="_blank">
                                 <span className="text-blue text-md hover:text-pink hover:underline hover:underline-offset-8 hover:decoration-2">in progress</span>
-                            </p>
-                            <Link href="https://islamoradafishingguidesandcharters.com/" target="_blank">
+                            </Link>
+                            <Link href="https://teamoregon.net/" target="_blank">
                                 <img className="w-6 ml-2" src='/images/right-arrow.svg' alt='right arrow'/>
                             </Link>
                         </div>
