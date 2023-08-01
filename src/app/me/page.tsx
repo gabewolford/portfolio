@@ -47,7 +47,7 @@ export default function MePage() {
 
                     <div className="mb-20">
                         <h5 className="text-dark-grey mb-3 hover:text-yellow">systems & tools</h5>
-                        <p>vite, vercel, sanity, shopify, square, stripe, wordpress, cms, headless cms, git, mongoose, prisma, postman, aws, google, figma, vs code, and more</p>
+                        <p>vite, vercel, sanity, shopify, square, stripe, wordpress, cms, headless cms, git, groq, graphQL, apollo, mongoose, prisma, postman, aws, google, figma, vs code, and more</p>
                     </div>
                 </div>
                     
