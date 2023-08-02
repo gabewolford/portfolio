@@ -172,7 +172,7 @@ export default function WorkPage() {
                     </div>
                 </section>
 
-                <section className="fade-in flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16">
+                {/* <section className="fade-in flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16">
                     <div className='order-last md:order-first max-h-96 overflow-auto scrollbar-hide'>
                         <img src='/images/gregslist.png' alt="gregslist screenshot" />
                     </div>
@@ -196,7 +196,7 @@ export default function WorkPage() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
    
                 <section className='fade-in mt-24 text-center'>
                     <div className="justify-end">
