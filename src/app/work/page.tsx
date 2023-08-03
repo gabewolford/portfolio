@@ -57,10 +57,10 @@ export default function WorkPage() {
                     
                         <p className="text-sm mb-2">full stack development, web design, technical SEO, digital strategy, webmaster services, domains & hosting, next, react, tailwind, vercel</p>
                         <div className="flex items-center">
-                            <Link href="https://teamoregon.net/" target="_blank">
+                            <Link href="https://team-oregon.vercel.app/" target="_blank">
                                 <span className="text-blue text-md hover:text-pink hover:underline hover:underline-offset-8 hover:decoration-2">in progress</span>
                             </Link>
-                            <Link href="https://teamoregon.net/" target="_blank">
+                            <Link href="https://team-oregon.vercel.app/" target="_blank">
                                 <img className="w-6 ml-2" src='/images/right-arrow.svg' alt='right arrow'/>
                             </Link>
                         </div>
