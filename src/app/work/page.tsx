@@ -141,30 +141,6 @@ export default function WorkPage() {
                         </div>
                     </div>
                 </section>
-                
-                <section className="fade-in flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
-                    <div className="flex flex-col md:ml-20">
-                        <Link href="https://github.com/spbovarnick/anomalies-anonymous" target="_blank">
-                            <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-1 transition ease-in-out duration-300">anomalies anonymous</h4>
-                        </Link>
-                        <p className="text-xs mb-2 text-dark-grey">march 2023</p>
-                    
-                        <p className="text-sm mb-2">django, python, heroku, postgreSQL, bootstrap, jQuery, geocoder, crispy forms, figma</p>
-                        <div className="flex items-center">
-                            <Link href="https://www.anomaliesanonymous.com/" target="_blank">
-                                <span className="text-blue text-md hover:text-pink hover:underline hover:underline-offset-8 hover:decoration-2">check it out</span>
-                            </Link>
-                            <Link href="https://www.anomaliesanonymous.com/" target="_blank">
-                                <img className="w-6 ml-2" src='/images/right-arrow.svg' alt='right arrow'/>
-                            </Link>
-                            
-                        </div>
-                    </div>
-                    
-                    <div className='order-last overflow-auto scrollbar-hide'>
-                        <img src='/images/anonanon.png' alt="anomalies anonymous screenshot" />
-                    </div>
-                </section>
    
                 <section className='fade-in mt-24 text-center'>
                     <div className="justify-end">
