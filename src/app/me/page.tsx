@@ -27,9 +27,9 @@ export default function MePage() {
                     </div>
                 </div>
 
-                <h2 className="fade-in text-2xl md:text-3xl mb-8 mt-16 lg:mt-20">skills</h2>
+                <h2 className="show text-2xl md:text-3xl mb-8 mt-16 lg:mt-20">skills</h2>
 
-                <div className="fade-in grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-14">
+                <div className="show grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-14">
                     <div className="mb-10">
                         <h5 className="text-dark-grey mb-3 hover:text-green">languages</h5>
                         <p>javascript, typescript, python, html5, css3, php, sql, and more</p>
