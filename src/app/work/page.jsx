@@ -25,7 +25,6 @@ export default function WorkPage() {
 
                 <div className='flex flex-col gap-16 md:gap-32'>
 
-
                     <PhotoLeftCard
                         imageUrl={'/images/islamorada.png'}
                         altText={'islamorada fishing screenshot'}
@@ -44,9 +43,9 @@ export default function WorkPage() {
                         githubUrl={'https://github.com/gabewolford/team-oregon'}
                         siteUrl={'https://team-oregon.vercel.app/'}
                         projectName={'team oregon'}
-                        monthAndYear={'july 2023'}
+                        monthAndYear={'august 2023'}
                         technologies={'fullstack development, headless development, web design, technical SEO, digital strategy, webmaster services, domains & hosting, next, react, sanity, paypal, mongoDB, next auth, tailwind, vercel'}
-                        ctaText={'under construction'}
+                        ctaText={'check it out'}
                     >
                     </PhotoRightCard>
 
