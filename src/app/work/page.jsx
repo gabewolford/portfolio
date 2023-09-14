@@ -67,7 +67,7 @@ export default function WorkPage() {
                         githubUrl={'https://github.com/gabewolford/small-hound'}
                         siteUrl={'https://smallhound.co/'}
                         projectName={'small hound'}
-                        monthAndYear={'july 2023'}
+                        monthAndYear={'june 2023'}
                         technologies={'next.js, react, node, tailwind, javascript, vercel, figma'}
                         ctaText={'check it out'}
                     >
