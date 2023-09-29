@@ -31,11 +31,11 @@ export default function WorkPage() {
             githubUrl={"https://github.com/gabewolford/vert-outdoors"}
             siteUrl={"https://vert-outdoors.vercel.app/"}
             projectName={"vert outdoors"}
-            monthAndYear={"under construction"}
+            monthAndYear={"september 2023"}
             technologies={
               "frontend development, headless development, web design, technical SEO, webmaster services, domains & hosting, nuxt, sanity, tailwind, figma, vercel"
             }
-            ctaText={"check it out"}
+            ctaText={"under construction"}
           ></PhotoRightCard>
 
           <PhotoLeftCard
