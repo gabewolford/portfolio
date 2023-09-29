@@ -25,6 +25,19 @@ export default function WorkPage() {
         </header>
 
         <div className="flex flex-col gap-16 md:gap-32">
+          <PhotoRightCard
+            imageUrl={"/images/vert-outdoors.png"}
+            altText={"VERT Outdoors screenshot"}
+            githubUrl={"https://github.com/gabewolford/vert-outdoors"}
+            siteUrl={"https://vert-outdoors.vercel.app/"}
+            projectName={"vert outdoors"}
+            monthAndYear={"under construction"}
+            technologies={
+              "frontend development, headless development, web design, technical SEO, webmaster services, domains & hosting, nuxt, sanity, tailwind, figma, vercel"
+            }
+            ctaText={"check it out"}
+          ></PhotoRightCard>
+
           <PhotoLeftCard
             imageUrl={"/images/islamorada.png"}
             altText={"islamorada fishing screenshot"}
