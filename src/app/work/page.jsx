@@ -35,7 +35,7 @@ export default function WorkPage() {
             technologies={
               "frontend development, headless development, web design, technical SEO, webmaster services, domains & hosting, nuxt, sanity, tailwind, figma, vercel"
             }
-            ctaText={"under construction"}
+            ctaText={"check it out"}
           ></PhotoRightCard>
 
           <PhotoLeftCard
