@@ -33,7 +33,7 @@ export default function WorkPage() {
             projectName={"vert outdoors"}
             monthAndYear={"september 2023"}
             technologies={
-              "frontend development, headless development, web design, technical SEO, webmaster services, domains & hosting, nuxt, sanity, tailwind, figma, vercel"
+              "frontend development, headless development, web design, webmaster services, domains & hosting, nuxt, sanity, tailwind, figma, vercel"
             }
             ctaText={"check it out"}
           ></PhotoRightCard>
@@ -48,7 +48,7 @@ export default function WorkPage() {
             projectName={"islamorada fishing guides"}
             monthAndYear={"april 2023"}
             technologies={
-              "frontend development, SEO, site migration, react, next, node, sanity, tailwind, vercel, figma"
+              "frontend development, headless development, site migration, webmaster services, domains & hosting, react, next, node, sanity, tailwind, vercel, figma"
             }
             ctaText={"check it out"}
           ></PhotoLeftCard>
@@ -61,7 +61,7 @@ export default function WorkPage() {
             projectName={"team oregon"}
             monthAndYear={"august 2023"}
             technologies={
-              "fullstack development, headless development, web design, technical SEO, digital strategy, webmaster services, domains & hosting, next, react, sanity, paypal, mongoDB, next auth, tailwind, vercel"
+              "fullstack development, headless development, web design, webmaster services, domains & hosting, next, react, sanity, paypal, mongoDB, next auth, tailwind, vercel"
             }
             ctaText={"check it out"}
           ></PhotoRightCard>
