@@ -25,6 +25,19 @@ export default function WorkPage() {
         </header>
 
         <div className="flex flex-col gap-16 md:gap-32">
+          <PhotoLeftCard
+            imageUrl={"/images/morf-health.png"}
+            altText={"morf health screenshot"}
+            githubUrl={"https://github.com/gabewolford/morf-health"}
+            siteUrl={"https://www.morf.health/"}
+            projectName={"morf health"}
+            monthAndYear={"in progress"}
+            technologies={
+              "frontend development, headless development, react, next, node, sanity, tailwind, vercel, figma"
+            }
+            ctaText={"check it out"}
+          ></PhotoLeftCard>
+
           <PhotoRightCard
             imageUrl={"/images/vert-outdoors.png"}
             altText={"VERT Outdoors screenshot"}
