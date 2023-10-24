@@ -31,12 +31,12 @@ export default function MePage() {
               in the music industry, specializing in react applications and
               other front-end technologies. i have a proven ability to deliver
               scalable, accessible, performant, and visually appealing web
-              applications that users love. i prefer building with next/
-              vue/nuxt, node.js, sanity, tailwind, and figma. my soft skills
-              compliment my tech chops, allowing me to collaborate effectively
-              with leadership, design, and engineering teams every step of the
-              way. i&apos;m a lightning-fast learner and am committed to
-              delivering exceptional user experiences.
+              applications that users love. i prefer building with
+              next/vue/nuxt, node.js, sanity, tailwind, and figma. my soft
+              skills compliment my tech chops, allowing me to collaborate
+              effectively with leadership, design, and engineering teams every
+              step of the way. i&apos;m a lightning-fast learner and am
+              committed to delivering exceptional user experiences.
             </p>
             <p>
               when i&apos;m not clacking away on the keys, i&apos;m probably
