@@ -46,7 +46,7 @@ export default function WorkPage() {
             projectName={"vert outdoors"}
             monthAndYear={"september 2023"}
             technologies={
-              "frontend development, headless development, web design, webmaster services, domains & hosting, nuxt, sanity, tailwind, figma, vercel"
+              "frontend development, headless development, web design, logo design, webmaster services, domains & hosting, nuxt, sanity, tailwind, figma, vercel"
             }
             ctaText={"check it out"}
           ></PhotoRightCard>
