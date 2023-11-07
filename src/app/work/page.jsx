@@ -21,17 +21,30 @@ export default function WorkPage() {
       <Observer />
       <main className="animate__animated animate__fadeIn mt-24 pb-36 max-w-[80vw] lg:max-w-[70vw] mx-auto">
         <header className="text-center text-3xl md:text-4xl font-bold mb-16">
-          <h1>highlighted work</h1>
+          <h1>recent work</h1>
         </header>
 
         <div className="flex flex-col gap-16 md:gap-32">
+          <PhotoRightCard
+            imageUrl={"/images/alex-barron-portfolio.png"}
+            altText={"portfolio site screenshot"}
+            githubUrl={"https://github.com/gabewolford/alex-barron-portfolio"}
+            siteUrl={"https://alex-barron-portfolio.vercel.app/"}
+            projectName={"product design portfolio site"}
+            monthAndYear={"november 2023"}
+            technologies={
+              "frontend development, nuxt, node, tailwind, vercel, figma"
+            }
+            ctaText={"check it out"}
+          ></PhotoRightCard>
+
           <PhotoLeftCard
             imageUrl={"/images/morf-health.png"}
             altText={"morf health screenshot"}
             githubUrl={"https://github.com/gabewolford/morf-health"}
             siteUrl={"https://www.morf.health/"}
             projectName={"morf health"}
-            monthAndYear={"in progress"}
+            monthAndYear={"october 2023"}
             technologies={
               "frontend development, headless development, react, next, node, sanity, tailwind, vercel, figma"
             }
