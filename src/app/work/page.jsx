@@ -29,7 +29,7 @@ export default function WorkPage() {
             imageUrl={"/images/alex-barron-portfolio.png"}
             altText={"portfolio site screenshot"}
             githubUrl={"https://github.com/gabewolford/alex-barron-portfolio"}
-            siteUrl={"https://alex-barron-portfolio.vercel.app/"}
+            siteUrl={"https://alexbarron.site/"}
             projectName={"product design portfolio site"}
             monthAndYear={"november 2023"}
             technologies={
