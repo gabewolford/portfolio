@@ -53,9 +53,7 @@ export default function MePage() {
         <div className="show grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-14">
           <div className="mb-10">
             <h5 className="text-dark-grey mb-3 hover:text-green">languages</h5>
-            <p>
-              javascript, typescript, html5, css3, python, php, sql, and more
-            </p>
+            <p>javascript, typescript, html5, css3, python, sql, and more</p>
           </div>
 
           <div className="mb-10">
@@ -63,13 +61,14 @@ export default function MePage() {
               frameworks & libraries
             </h5>
             <p>
-              react, next, vue, nuxt, node, express, django, tailwind, and more
+              react, next, vue, nuxt, node, express, django, tailwind,
+              animate.css, gsap, and more
             </p>
           </div>
 
           <div className="mb-10">
             <h5 className="text-dark-grey mb-3 hover:text-pink">databases</h5>
-            <p>mongoDB, postresql, mysql, and more</p>
+            <p>mongoDB, postgresql, mysql, and more</p>
           </div>
 
           <div className="mb-20">
@@ -77,9 +76,8 @@ export default function MePage() {
               systems & tools
             </h5>
             <p>
-              vite, vercel, sanity, paypal, square, stripe, wordpress, cms,
-              headless cms, git, groq, graphQL, apollo, mongoose, postman, aws,
-              google, figma, vs code, and more
+              vite, vercel, sanity, shopify, headless wordpress, headless cms,
+              graphQL, aws, google, figma, vs code, and more
             </p>
           </div>
         </div>
