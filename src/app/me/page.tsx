@@ -27,11 +27,10 @@ export default function MePage() {
           <div className="">
             <h1 className="text-3xl md:text-4xl mb-5">a lil bit about me</h1>
             <p className="mb-4">
-              i&apos;m gabe - a design-oriented developer with a deep background
-              in the music industry, specializing in react applications and
-              other front-end technologies. i have a proven ability to deliver
-              scalable, accessible, performant, and visually appealing web
-              applications that users love. i prefer building with
+              i&apos;m gabe - a design-oriented developer, specializing in react
+              applications and other front-end technologies. i have a proven
+              ability to deliver scalable, accessible, performant, and visually
+              appealing web applications that users love. i prefer building with
               next/vue/nuxt, node.js, sanity, tailwind, and figma. my soft
               skills compliment my tech chops, allowing me to collaborate
               effectively with leadership, design, and engineering teams every

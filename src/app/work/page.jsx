@@ -119,6 +119,19 @@ export default function WorkPage() {
           ></PhotoRightCard>
 
           <PhotoLeftCard
+            imageUrl={"/images/ourkade.png"}
+            altText={"ourkade screenshot"}
+            githubUrl={"https://github.com/gabewolford/ourkade"}
+            siteUrl={"https://ourkade.io"}
+            projectName={"ourkade"}
+            monthAndYear={"october 2023"}
+            technologies={
+              "frontend development, ui development, vue3, node, tailwind, vercel, figma"
+            }
+            ctaText={"coming q1 2024"}
+          ></PhotoLeftCard>
+
+          <PhotoRightCard
             imageUrl={"/images/launchbreak.png"}
             altText={"launchbreak screenshot"}
             githubUrl={"https://github.com/gabewolford/launchbreak"}
@@ -129,7 +142,7 @@ export default function WorkPage() {
               "react, express, mongoDB, node, heroku, javascript, tailwind, figma"
             }
             ctaText={"check it out"}
-          ></PhotoLeftCard>
+          ></PhotoRightCard>
 
           <section className="text-center">
             <div className="justify-end">
