@@ -21,11 +21,24 @@ export default function WorkPage() {
       <Observer />
       <main className="animate__animated animate__fadeIn mt-24 pb-36 max-w-[80vw] lg:max-w-[70vw] mx-auto">
         <header className="text-center text-3xl md:text-4xl font-bold mb-16">
-          <h1>recent work</h1>
+          <h1>featured work</h1>
         </header>
 
         <div className="flex flex-col gap-16 md:gap-32">
           <PhotoRightCard
+            imageUrl={"/images/teamoregon.png"}
+            altText={"team oregon screenshot"}
+            githubUrl={"https://github.com/gabewolford/team-oregon"}
+            siteUrl={"https://team-oregon.vercel.app/"}
+            projectName={"team oregon"}
+            monthAndYear={"august 2023"}
+            technologies={
+              "fullstack development, headless development, web design, webmaster services, domains & hosting, next, react, sanity, paypal, mongoDB, next auth, tailwind, vercel"
+            }
+            ctaText={"check it out"}
+          />
+
+          <PhotoLeftCard
             imageUrl={"/images/alex-barron-portfolio.png"}
             altText={"portfolio site screenshot"}
             githubUrl={"https://github.com/gabewolford/alex-barron-portfolio"}
@@ -36,20 +49,7 @@ export default function WorkPage() {
               "frontend development, nuxt, node, tailwind, vercel, figma"
             }
             ctaText={"check it out"}
-          ></PhotoRightCard>
-
-          <PhotoLeftCard
-            imageUrl={"/images/morf-health.png"}
-            altText={"morf health screenshot"}
-            githubUrl={"https://github.com/gabewolford/morf-health"}
-            siteUrl={"https://www.morf.health/"}
-            projectName={"morf health"}
-            monthAndYear={"october 2023"}
-            technologies={
-              "frontend development, headless development, react, next, node, sanity, tailwind, vercel, figma"
-            }
-            ctaText={"check it out"}
-          ></PhotoLeftCard>
+          />
 
           <PhotoRightCard
             imageUrl={"/images/vert-outdoors.png"}
@@ -62,7 +62,7 @@ export default function WorkPage() {
               "frontend development, headless development, web design, logo design, webmaster services, domains & hosting, nuxt, sanity, tailwind, figma, vercel"
             }
             ctaText={"check it out"}
-          ></PhotoRightCard>
+          />
 
           <PhotoLeftCard
             imageUrl={"/images/islamorada.png"}
@@ -77,20 +77,20 @@ export default function WorkPage() {
               "frontend development, headless development, site migration, webmaster services, domains & hosting, react, next, node, sanity, tailwind, vercel, figma"
             }
             ctaText={"check it out"}
-          ></PhotoLeftCard>
+          />
 
           <PhotoRightCard
-            imageUrl={"/images/teamoregon.png"}
-            altText={"team oregon screenshot"}
-            githubUrl={"https://github.com/gabewolford/team-oregon"}
-            siteUrl={"https://team-oregon.vercel.app/"}
-            projectName={"team oregon"}
-            monthAndYear={"august 2023"}
+            imageUrl={"/images/morf-health.png"}
+            altText={"morf health screenshot"}
+            githubUrl={"https://github.com/gabewolford/morf-health"}
+            siteUrl={"https://www.morf.health/"}
+            projectName={"morf health"}
+            monthAndYear={"october 2023"}
             technologies={
-              "fullstack development, headless development, web design, webmaster services, domains & hosting, next, react, sanity, paypal, mongoDB, next auth, tailwind, vercel"
+              "frontend development, headless development, react, next, node, sanity, tailwind, vercel, figma"
             }
             ctaText={"check it out"}
-          ></PhotoRightCard>
+          />
 
           <PhotoLeftCard
             imageUrl={"/images/biiig-stretch-screenshot.png"}
@@ -103,7 +103,7 @@ export default function WorkPage() {
               "next.js, react, node, tailwind, sanity, vercel, figma"
             }
             ctaText={"check it out"}
-          ></PhotoLeftCard>
+          />
 
           <PhotoRightCard
             imageUrl={"/images/smallhound.png"}
@@ -116,7 +116,7 @@ export default function WorkPage() {
               "next.js, react, node, tailwind, javascript, vercel, figma"
             }
             ctaText={"check it out"}
-          ></PhotoRightCard>
+          />
 
           <PhotoLeftCard
             imageUrl={"/images/ourkade.png"}
@@ -129,7 +129,7 @@ export default function WorkPage() {
               "frontend development, ui development, vue3, node, tailwind, vercel, figma"
             }
             ctaText={"coming q1 2024"}
-          ></PhotoLeftCard>
+          />
 
           <PhotoRightCard
             imageUrl={"/images/launchbreak.png"}
@@ -139,10 +139,10 @@ export default function WorkPage() {
             projectName={"launchbreak"}
             monthAndYear={"may 2023"}
             technologies={
-              "react, express, mongoDB, node, heroku, javascript, tailwind, figma"
+              "full stack development, react, express, mongoDB, node, heroku, javascript, tailwind, figma"
             }
             ctaText={"check it out"}
-          ></PhotoRightCard>
+          />
 
           <section className="text-center">
             <div className="justify-end">

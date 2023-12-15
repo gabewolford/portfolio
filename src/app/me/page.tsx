@@ -28,14 +28,16 @@ export default function MePage() {
             <h1 className="text-3xl md:text-4xl mb-5">a lil bit about me</h1>
             <p className="mb-4">
               i&apos;m gabe - a design-oriented developer, specializing in react
-              applications and other front-end technologies. i have a proven
-              ability to deliver scalable, accessible, performant, and visually
-              appealing web applications that users love. i prefer building with
-              next/vue/nuxt, node.js, sanity, tailwind, and figma. my soft
-              skills compliment my tech chops, allowing me to collaborate
-              effectively with leadership, design, and engineering teams every
-              step of the way. i&apos;m a lightning-fast learner and am
-              committed to delivering exceptional user experiences.
+              & vue, component-based design systems, and other front-end
+              technologies. i enjoy solving challenging problems, and have a
+              proven ability to deliver scalable, accessible, performant, and
+              visually appealing web applications that users love. i prefer
+              building with next/vue/nuxt, node.js, sanity, tailwind, and figma.
+              my soft skills compliment my tech chops, allowing me to
+              collaborate effectively with leadership, design, and engineering
+              teams every step of the way. i&apos;m a lightning-fast learner
+              with a growth mindset and am committed to delivering exceptional
+              user experiences.
             </p>
             <p>
               when i&apos;m not clacking away on the keys, i&apos;m probably
