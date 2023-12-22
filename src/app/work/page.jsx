@@ -29,37 +29,11 @@ export default function WorkPage() {
             imageUrl={"/images/teamoregon.png"}
             altText={"team oregon screenshot"}
             githubUrl={"https://github.com/gabewolford/team-oregon"}
-            siteUrl={"https://team-oregon.vercel.app/"}
+            siteUrl={"https://teamoregon.cc/"}
             projectName={"team oregon"}
             monthAndYear={"august 2023"}
             technologies={
               "fullstack development, headless development, web design, webmaster services, domains & hosting, next, react, sanity, paypal, mongoDB, next auth, tailwind, vercel"
-            }
-            ctaText={"check it out"}
-          />
-
-          <PhotoLeftCard
-            imageUrl={"/images/alex-barron-portfolio.png"}
-            altText={"portfolio site screenshot"}
-            githubUrl={"https://github.com/gabewolford/alex-barron-portfolio"}
-            siteUrl={"https://alexbarron.site/"}
-            projectName={"product design portfolio site"}
-            monthAndYear={"november 2023"}
-            technologies={
-              "frontend development, nuxt, node, tailwind, vercel, figma"
-            }
-            ctaText={"check it out"}
-          />
-
-          <PhotoRightCard
-            imageUrl={"/images/vert-outdoors.png"}
-            altText={"VERT Outdoors screenshot"}
-            githubUrl={"https://github.com/gabewolford/vert-outdoors"}
-            siteUrl={"https://vert-outdoors.vercel.app/"}
-            projectName={"vert outdoors"}
-            monthAndYear={"september 2023"}
-            technologies={
-              "frontend development, headless development, web design, logo design, webmaster services, domains & hosting, nuxt, sanity, tailwind, figma, vercel"
             }
             ctaText={"check it out"}
           />
@@ -88,6 +62,32 @@ export default function WorkPage() {
             monthAndYear={"october 2023"}
             technologies={
               "frontend development, headless development, react, next, node, sanity, tailwind, vercel, figma"
+            }
+            ctaText={"check it out"}
+          />
+
+          <PhotoLeftCard
+            imageUrl={"/images/alex-barron-portfolio.png"}
+            altText={"portfolio site screenshot"}
+            githubUrl={"https://github.com/gabewolford/alex-barron-portfolio"}
+            siteUrl={"https://alexbarron.site/"}
+            projectName={"product design portfolio site"}
+            monthAndYear={"november 2023"}
+            technologies={
+              "frontend development, nuxt, node, tailwind, vercel, figma"
+            }
+            ctaText={"check it out"}
+          />
+
+          <PhotoRightCard
+            imageUrl={"/images/vert-outdoors.png"}
+            altText={"VERT Outdoors screenshot"}
+            githubUrl={"https://github.com/gabewolford/vert-outdoors"}
+            siteUrl={"https://vert-outdoors.vercel.app/"}
+            projectName={"vert outdoors"}
+            monthAndYear={"september 2023"}
+            technologies={
+              "frontend development, headless development, web design, logo design, webmaster services, domains & hosting, nuxt, sanity, tailwind, figma, vercel"
             }
             ctaText={"check it out"}
           />
