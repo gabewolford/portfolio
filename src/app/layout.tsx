@@ -1,7 +1,6 @@
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import Navbar from "./components/Navbar";
-import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata = {
   title: "gabe wolford | web developer",
@@ -26,7 +25,6 @@ export default function RootLayout({
         <Navbar />
         <Analytics />
       </body>
-      <GoogleAnalytics gaId="G-MB47VFLXXK" />
     </html>
   );
 }
