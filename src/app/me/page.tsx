@@ -1,5 +1,6 @@
 import Observer from "../components/utils/Observer";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = {
   title: "gabe wolford | about me",
@@ -19,10 +20,12 @@ export default function MePage() {
 
       <main className="animate__animated animate__fadeIn mt-16 pb-24 max-w-[80vw] md:max-w-[70vw] mx-auto text-sm">
         <div className="fade-in show grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center mt-24 md:mt-32">
-          <img
+          <Image
             className="rounded-full mx-auto"
             src="/images/vla.png"
             alt="profile photo"
+            height={558}
+            width={538}
           />
           <div className="">
             <h1 className="text-3xl md:text-4xl mb-5">a lil bit about me</h1>
@@ -77,8 +80,8 @@ export default function MePage() {
               systems & tools
             </h5>
             <p>
-              vite, vercel, sanity, shopify, headless wordpress, headless cms,
-              graphQL, aws, google, figma, vs code, and more
+              vite, vercel, sanity, graphQL, headless cms, shopify, aws, google,
+              figma, vs code, and more
             </p>
           </div>
         </div>

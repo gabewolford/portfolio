@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function PhotoLeftCard({
   imageUrl,
@@ -12,8 +13,8 @@ export default function PhotoLeftCard({
 }) {
   return (
     <section className="show flex flex-col md:flex-row items-center gap-6 md:gap-14 w-full">
-      <div className="order-last md:order-first max-h-96 overflow-auto scrollbar-hide md:w-1/2">
-        <img src={imageUrl} alt={altText} />
+      <div className="order-last md:order-first h-96 overflow-auto scrollbar-hide md:w-1/2">
+        <Image src={imageUrl} alt={altText} height={384} width={500} />
       </div>
 
       <div className="md:w-1/2">

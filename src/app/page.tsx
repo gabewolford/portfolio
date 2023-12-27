@@ -28,11 +28,7 @@ export default function HomePage() {
           <span>i&apos;m a </span>
           <span className="text-yellow hover:text-blue">&#123;</span>
           <span className="text-brown hover:text-green transition ease-in-out duration-500">
-            ui
-          </span>
-          <span className="text-dark-grey">.</span>
-          <span className="text-brown hover:text-green transition ease-in-out duration-500">
-            ux
+            frontend
           </span>
           <span className="text-dark-grey">.</span>
           <span className="text-orange hover:text-pink transition ease-in-out duration-500">

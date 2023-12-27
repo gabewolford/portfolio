@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function PhotoRightCard({
   imageUrl,
@@ -37,8 +38,8 @@ export default function PhotoRightCard({
         </div>
       </div>
 
-      <div className="order-last max-h-96 overflow-auto scrollbar-hide md:w-1/2">
-        <img src={imageUrl} alt={altText} />
+      <div className="order-last h-96 overflow-auto scrollbar-hide md:w-1/2">
+        <Image src={imageUrl} alt={altText} height={384} width={500} />
       </div>
     </section>
   );
