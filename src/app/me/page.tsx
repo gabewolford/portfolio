@@ -1,6 +1,7 @@
 import Observer from "../components/utils/Observer";
 import Link from "next/link";
 import Image from "next/image";
+import photo from "../../../public/images/memoji.png";
 
 export const metadata = {
   title: "gabe wolford | about me",
@@ -22,16 +23,15 @@ export default function MePage() {
         <div className="fade-in show grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center mt-24 md:mt-32">
           <Image
             className="rounded-full mx-auto"
-            src="/images/vla.png"
+            src={photo}
             alt="profile photo"
-            height={558}
-            width={538}
+            placeholder="blur"
           />
           <div className="">
             <h1 className="text-3xl md:text-4xl mb-5">a lil bit about me</h1>
             <p className="mb-4">
-              i&apos;m gabe - a design-oriented developer, specializing in react
-              & vue, component-based design systems, and other front-end
+              i&apos;m gabe - a design-minded developer, specializing in react &
+              vue, component-based design systems, and other front-end
               technologies. i enjoy solving challenging problems, and have a
               proven ability to deliver scalable, accessible, performant, and
               visually appealing web applications that users love. i prefer
