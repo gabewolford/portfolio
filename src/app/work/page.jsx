@@ -80,6 +80,19 @@ export default function WorkPage() {
           />
 
           <PhotoRightCard
+            imageUrl={"/images/meat-cheese-bread.png"}
+            altText={"Meat Cheese Bread screenshot"}
+            githubUrl={"https://github.com/gabewolford/meat-cheese-bread"}
+            siteUrl={"https://meat-cheese-bread.vercel.app/"}
+            projectName={"meat cheese bread"}
+            monthAndYear={"january 2024"}
+            technologies={
+              "frontend development, headless development, web design, webmaster services, domains & hosting, next, sanity, tailwind, figma, vercel"
+            }
+            ctaText={"coming soon"}
+          />
+
+          <PhotoLeftCard
             imageUrl={"/images/vert-outdoors.png"}
             altText={"VERT Outdoors screenshot"}
             githubUrl={"https://github.com/gabewolford/vert-outdoors"}
@@ -92,7 +105,7 @@ export default function WorkPage() {
             ctaText={"check it out"}
           />
 
-          <PhotoLeftCard
+          <PhotoRightCard
             imageUrl={"/images/biiig-stretch-screenshot.png"}
             altText={"biiig stretch screenshot"}
             githubUrl={"https://github.com/gabewolford/biiig-stretch"}
@@ -105,7 +118,7 @@ export default function WorkPage() {
             ctaText={"check it out"}
           />
 
-          <PhotoRightCard
+          <PhotoLeftCard
             imageUrl={"/images/smallhound.png"}
             altText={"small hound screenshot"}
             githubUrl={"https://github.com/gabewolford/small-hound"}
@@ -118,7 +131,7 @@ export default function WorkPage() {
             ctaText={"check it out"}
           />
 
-          <PhotoLeftCard
+          <PhotoRightCard
             imageUrl={"/images/ourkade.png"}
             altText={"ourkade screenshot"}
             githubUrl={"https://github.com/gabewolford/ourkade"}
@@ -131,7 +144,7 @@ export default function WorkPage() {
             ctaText={"coming q1 2024"}
           />
 
-          <PhotoRightCard
+          <PhotoLeftCard
             imageUrl={"/images/launchbreak.png"}
             altText={"launchbreak screenshot"}
             githubUrl={"https://github.com/gabewolford/launchbreak"}
