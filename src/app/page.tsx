@@ -14,7 +14,7 @@ export const metadata = {
 export default function HomePage() {
   return (
     <>
-      <h1 className="grid min-h-svh max-h-svh place-items-center text-3xl mx-auto md:text-4xl ml-10 md:mx-12 animate__animated animate__fadeIn">
+      <h1 className="flex items-center text-3xl mx-9 md:mx-auto md:text-4xl animate__animated animate__fadeIn">
         <main className="leading-tight tracking-normal cursor-default">
           <span>hey there, i&apos;m </span>
           <span className="text-dark-grey hover:text-blue transition ease-in-out duration-500">
@@ -38,6 +38,7 @@ export default function HomePage() {
           <span className="text-yellow hover:text-blue transition ease-in-out duration-500">
             &#125;
           </span>
+          <br />
           <span> based in </span>
           <br />
           <span className="text-pink hover:text-green transition ease-in-out duration-500">

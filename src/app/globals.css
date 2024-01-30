@@ -16,7 +16,8 @@
 }
 
 body {
-  height: 100dvh;
+  height: 100svh;
+  display: flex;
 }
 
 .fade-in {
