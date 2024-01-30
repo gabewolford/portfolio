@@ -1,29 +1,30 @@
 @font-face {
-    font-family: 'Vercetti-Regular';
-    src: url('../../public/fonts/Vercetti-Regular.otf') format('opentype'),
-         url('../../public/fonts/Vercetti-Regular.ttf')  format('truetype');
-  }
+  font-family: "Vercetti-Regular";
+  src: url("../../public/fonts/Vercetti-Regular.otf") format("opentype"),
+    url("../../public/fonts/Vercetti-Regular.ttf") format("truetype");
+}
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(24, 24, 24);
-    color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  background-color: rgb(24, 24, 24);
+  color: rgb(255, 255, 255);
 }
 
 body {
-    height: 100dvh;
+  min-height: 100svh;
+  max-height: 100dvh;
 }
 
 .fade-in {
-    opacity: 0;
-    transition: 700ms;
-  }
-  
-  .fade-in.show {
-    opacity: 1;
-  }
+  opacity: 0;
+  transition: 700ms;
+}
+
+.fade-in.show {
+  opacity: 1;
+}
